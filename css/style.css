@@ -12,7 +12,7 @@ color: inherit;
 }
 
 h1,h2,h3,h4,h5,h6{
-color: red;
+color: blue;
 }
 .main-header .social a{
   text-decoration: none;
@@ -25,13 +25,13 @@ color: red;
   width: 110px;
 }
 .subtitle{
-  color:#46B9FF;
-}
-.subtitle:hover{
   color: #FF5252;
 }
+.subtitle:hover{
+  color:#46B9FF;
+}
 .edu{
-  font-weight: bold;
+  font-weight: cursive;
 }
 .skillimg{
   width: 100%;
