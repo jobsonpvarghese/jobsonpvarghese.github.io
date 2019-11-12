@@ -1,1 +1,1 @@
- jobsonpvarghese.github.io
+jobsonvarghese.tech
