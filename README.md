@@ -1,3 +1,3 @@
-# jobsonpvarghese.github.io
+# jobsonvarghese.com
 My portfolio webpage.
 Updated
