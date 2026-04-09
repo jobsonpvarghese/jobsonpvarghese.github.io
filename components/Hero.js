@@ -11,18 +11,13 @@ export default function Hero() {
         />
         <div className="absolute bottom-8 left-8 bg-[#f5f0e8] px-5 py-3 text-[11px] tracking-widest uppercase">
           <span className="text-amber-900 font-bold">Jobson Varghese</span>
-          <span className="text-amber-700"> · Designer | Developer</span>
+          <span className="text-amber-700"> · Full Stack Developer | Designer</span>
         </div>
       </div>
 
       {/* Text — second in DOM, first visually on desktop */}
       <div className="flex flex-col justify-center px-12  xl:px-20 lg:py-0 lg:order-1">
         <div className="flex flex-col justify-center px-12 xl:px-20 py-20 lg:py-0">
-          <p className="flex items-center gap-3 text-xs tracking-widest uppercase text-stone-400 mb-10">
-            <span className="w-6 h-px bg-amber-600/60"></span>
-            Available for work · 2025
-          </p>
-
           <h1 className="font-serif text-6xl xl:text-7xl font-normal leading-[1.05] text-stone-900 mb-7">
             Design that makes
             <br />
@@ -30,8 +25,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-base font-light leading-relaxed text-stone-400 max-w-md mb-14">
-            I'm Jobson Varghese — a product designer crafting interfaces that balance precision with warmth. Open to full-time roles and select
-            freelance projects.
+            I'm Jobson Varghese — a product designer crafting engaging digital experiences.
           </p>
 
           <div className="flex items-center gap-6 mb-20">

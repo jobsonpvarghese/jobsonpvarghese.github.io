@@ -1,7 +1,7 @@
 // components/Education.jsx
 export default function Education() {
   return (
-    <section id="education" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative">
+    <section id="education" className="px-12 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative">
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10" />
 
       <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-400 mb-3">

@@ -133,30 +133,13 @@ function Hero() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col justify-center px-12 xl:px-20 py-20 lg:py-0",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "flex items-center gap-3 text-xs tracking-widest uppercase text-stone-400 mb-10",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "w-6 h-px bg-amber-600/60"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/Hero.js",
-                                    lineNumber: 22,
-                                    columnNumber: 13
-                                }, this),
-                                "Available for work · 2025"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/Hero.js",
-                            lineNumber: 21,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "font-serif text-6xl xl:text-7xl font-normal leading-[1.05] text-stone-900 mb-7",
                             children: [
                                 "Design that makes",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/components/Hero.js",
-                                    lineNumber: 28,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, this),
                                 "people ",
@@ -165,22 +148,22 @@ function Hero() {
                                     children: "feel"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hero.js",
-                                    lineNumber: 29,
+                                    lineNumber: 24,
                                     columnNumber: 20
                                 }, this),
                                 " something."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Hero.js",
-                            lineNumber: 26,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-base font-light leading-relaxed text-stone-400 max-w-md mb-14",
-                            children: "I'm Jobson Varghese — a product designer crafting interfaces that balance precision with warmth. Open to full-time roles and select freelance projects."
+                            children: "I'm Jobson Varghese — a product designer crafting engaging digital experiences."
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.js",
-                            lineNumber: 32,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -192,7 +175,7 @@ function Hero() {
                                     children: "View work"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hero.js",
-                                    lineNumber: 38,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -204,19 +187,19 @@ function Hero() {
                                             children: "↗"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.js",
-                                            lineNumber: 51,
+                                            lineNumber: 45,
                                             columnNumber: 28
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Hero.js",
-                                    lineNumber: 45,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Hero.js",
-                            lineNumber: 37,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
@@ -738,7 +721,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Education() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "education",
-        className: "px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative",
+        className: "px-12 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10"
