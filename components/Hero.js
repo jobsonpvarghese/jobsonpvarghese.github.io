@@ -17,8 +17,8 @@ export default function Hero() {
 
       {/* Text — second in DOM, first visually on desktop */}
       <div className="flex flex-col justify-center px-12  xl:px-20 lg:py-0 lg:order-1">
-        <div className="flex flex-col justify-center px-12 xl:px-20 py-20 lg:py-0">
-          <h1 className="font-serif text-6xl xl:text-7xl font-normal leading-[1.05] text-stone-900 mb-7">
+        <div className="flex flex-col justify-center px-8 xl:px-20 py-20 lg:py-0">
+          <h1 className="font-serif text-4xl xl:text-6xl font-normal leading-[1.05] text-stone-900 mb-7">
             Design that makes
             <br />
             people <em className="italic text-amber-700 ">feel</em> something.
