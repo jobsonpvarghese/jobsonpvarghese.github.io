@@ -11,7 +11,7 @@ export default function Hero() {
         />
         <div className="absolute bottom-8 left-8 bg-[#f5f0e8] px-5 py-3 text-[11px] tracking-widest uppercase">
           <span className="text-amber-900 font-bold">Jobson Varghese</span>
-          <span className="text-amber-700"> · Full Stack Developer | Designer</span>
+          <span className="text-amber-700"> · Full Stack Developer</span>
         </div>
       </div>
 

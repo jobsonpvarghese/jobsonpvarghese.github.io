@@ -39,7 +39,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f0ebe0] relative">
+    <section id="skills" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative">
       {/* top border */}
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10" />
 
