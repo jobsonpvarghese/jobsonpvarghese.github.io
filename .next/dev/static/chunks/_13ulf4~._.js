@@ -739,17 +739,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Education() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "education",
-        className: "px-12 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative",
+        className: "px-6 sm:px-10 lg:px-14 py-16 lg:py-48 bg-[#1c1917] relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10"
+                className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5"
             }, void 0, false, {
                 fileName: "[project]/components/Education.js",
                 lineNumber: 5,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-400 mb-3",
+                className: "flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "w-5 h-px bg-amber-700/60"
@@ -766,11 +766,11 @@ function Education() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "font-serif text-4xl sm:text-5xl font-normal text-stone-900 leading-none mb-12",
+                className: "font-serif text-4xl sm:text-5xl font-normal text-stone-50 leading-none mb-10",
                 children: [
                     "My ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
-                        className: "italic text-amber-700",
+                        className: "italic text-amber-600",
                         children: "education"
                     }, void 0, false, {
                         fileName: "[project]/components/Education.js",
@@ -784,13 +784,13 @@ function Education() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "grid grid-cols-1 sm:grid-cols-2 gap-0.5",
+                className: "grid grid-cols-1 sm:grid-cols-2 gap-px bg-stone-800",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-stone-900 p-8 relative overflow-hidden hover:-translate-y-1 transition-transform duration-300 cursor-default",
+                        className: "bg-[#1c1917] p-8 relative overflow-hidden hover:bg-[#221e1b] transition-colors duration-300 cursor-default group",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "font-serif text-[96px] text-stone-900/10 absolute bottom-0 right-3 leading-none select-none pointer-events-none",
+                                className: "font-serif text-[80px] italic text-stone-800 absolute bottom-[-10px] right-4 leading-none select-none pointer-events-none group-hover:text-stone-700/40 transition-colors duration-300",
                                 children: "01"
                             }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
@@ -798,69 +798,61 @@ function Education() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-between items-start mb-7",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] tracking-widest uppercase text-amber-700 border border-amber-700/30 px-3 py-1",
-                                        children: "Post Graduate"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 21,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-[11px] text-stone-600 text-right leading-relaxed",
-                                        children: [
-                                            "May 2022",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/components/Education.js",
-                                                lineNumber: 24,
-                                                columnNumber: 15
-                                            }, this),
-                                            "Aug 2023"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 22,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-4",
+                                children: "May 2022 — Aug 2023"
+                            }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 20,
+                                lineNumber: 23,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1 font-sans mb-5",
+                                children: "Post Graduate"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "font-serif text-[22px] text-[#f5f0e8] leading-tight mb-3",
+                                className: "font-serif text-[20px] text-stone-50 leading-snug mb-5",
                                 children: "Post Graduate Diploma in Mobile Application Development"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 28,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[11px] tracking-widest uppercase text-stone-600 mb-2",
-                                children: "Fanshawe College"
                             }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
                                 lineNumber: 29,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-stone-600 flex items-center gap-2",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-auto",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-4 h-px bg-amber-700 inline-block"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-2",
+                                        children: "Fanshawe College"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Education.js",
-                                        lineNumber: 31,
+                                        lineNumber: 32,
                                         columnNumber: 13
                                     }, this),
-                                    "London, Ontario, Canada"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-stone-600 font-sans flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "w-3 h-px bg-amber-700 inline-block"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Education.js",
+                                                lineNumber: 34,
+                                                columnNumber: 15
+                                            }, this),
+                                            "London, Ontario, Canada"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Education.js",
+                                        lineNumber: 33,
+                                        columnNumber: 13
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 30,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -870,78 +862,78 @@ function Education() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-white p-8 hover:-translate-y-1 transition-transform duration-300 cursor-default",
+                        className: "bg-[#221e1b] p-8 relative overflow-hidden hover:bg-[#26211d] transition-colors duration-300 cursor-default group",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-between items-start mb-7",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] tracking-widest uppercase text-amber-700 border border-amber-700/30 px-3 py-1",
-                                        children: "Bachelor's"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 39,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-[11px] text-stone-400 text-right leading-relaxed",
-                                        children: [
-                                            "Aug 2017",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/components/Education.js",
-                                                lineNumber: 42,
-                                                columnNumber: 15
-                                            }, this),
-                                            "May 2021"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 40,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "font-serif text-[22px] text-stone-900 leading-tight mb-3",
-                                children: "Bachelor of Technology in Computer Science & Engineering"
+                                className: "font-serif text-[80px] italic text-stone-800 absolute bottom-[-10px] right-4 leading-none select-none pointer-events-none group-hover:text-stone-700/40 transition-colors duration-300",
+                                children: "02"
                             }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 46,
+                                lineNumber: 43,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[11px] tracking-widest uppercase text-stone-400 mb-2",
-                                children: "St. Joseph's College of Engineering & Technology"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-4",
+                                children: "Aug 2017 — May 2021"
                             }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
                                 lineNumber: 47,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-stone-400 flex items-center gap-2",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1 font-sans mb-5",
+                                children: "Bachelor's"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "font-serif text-[20px] text-stone-50 leading-snug mb-5",
+                                children: "Bachelor of Technology in Computer Science & Engineering"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 53,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-auto",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-4 h-px bg-amber-700 inline-block"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-2",
+                                        children: "St. Joseph's College of Engineering & Technology"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Education.js",
-                                        lineNumber: 49,
+                                        lineNumber: 56,
                                         columnNumber: 13
                                     }, this),
-                                    "Palai, Kerala, India"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-stone-600 font-sans flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "w-3 h-px bg-amber-700 inline-block"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Education.js",
+                                                lineNumber: 58,
+                                                columnNumber: 15
+                                            }, this),
+                                            "Palai, Kerala, India"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Education.js",
+                                        lineNumber: 57,
+                                        columnNumber: 13
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 48,
+                                lineNumber: 55,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Education.js",
-                        lineNumber: 37,
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
