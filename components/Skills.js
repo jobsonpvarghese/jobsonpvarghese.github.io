@@ -39,15 +39,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-40 bg-[#f5f0e8] relative">
-      {/* Paper grain background filter */}
-      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.2] z-100" aria-hidden="true">
-        <filter id="papergrain">
-          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" />
-          <feColorMatrix type="saturate" values="0" />
-        </filter>
-        <rect width="100%" height="100%" filter="url(#papergrain)" />
-      </svg>
+    <section id="skills" className="px-6 sm:px-14 lg:px-24 py-16 lg:py-40 bg-[#f5f0e8] relative">
       {/* top border */}
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10" />
 

@@ -2,15 +2,6 @@
 export default function Hero() {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8] font-sans relative" id="hero">
-      {/* Paper grain background filter */}
-      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.2] z-100" aria-hidden="true">
-        <filter id="papergrain">
-          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" />
-          <feColorMatrix type="saturate" values="0" />
-        </filter>
-        <rect width="100%" height="100%" filter="url(#papergrain)" />
-      </svg>
-      {/* Image — first in DOM so it's on top on mobile */}
       <div className="relative overflow-hidden h-[100vw] sm:h-[60vw] lg:h-auto lg:min-h-full lg:order-2">
         <img
           src="/img/hero.png"

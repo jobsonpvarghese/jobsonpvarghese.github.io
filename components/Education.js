@@ -1,16 +1,49 @@
 // components/Education.jsx
 export default function Education() {
   return (
-    <section id="education" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-48 bg-[#1c1917] relative">
-      {/* Paper grain background filter */}
-      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.1] z-100" aria-hidden="true">
-        <filter id="papergrain">
-          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" />
-          <feColorMatrix type="saturate" values="0" />
-        </filter>
-        <rect width="100%" height="100%" filter="url(#papergrain)" />
-      </svg>
+    <section id="education" className="px-6 sm:px-14 lg:px-24 py-20 lg:py-56 bg-[#1c1917] relative overflow-hidden">
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5" />
+
+      {/* bg: amber radial glow — top-right */}
+      <div className="pointer-events-none absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-amber-700/5 blur-[100px]" />
+
+      {/* bg: amber radial glow — bottom-left */}
+      <div className="pointer-events-none absolute -bottom-32 -left-32 w-[400px] h-[400px] rounded-full bg-amber-600/4 blur-[120px]" />
+
+      {/* bg: decorative SVG grid lines */}
+      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.03]" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="edu-grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#d97706" strokeWidth="0.5" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#edu-grid)" />
+      </svg>
+
+      {/* bg: floating geometric accents */}
+      <svg
+        className="pointer-events-none absolute top-16 left-10 opacity-[0.06] animate-[spin_60s_linear_infinite_reverse]"
+        width="120"
+        height="120"
+        viewBox="0 0 120 120"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect x="1" y="1" width="118" height="118" stroke="#d97706" strokeWidth="0.75" strokeDasharray="4 8" />
+        <rect x="16" y="16" width="88" height="88" stroke="#d97706" strokeWidth="0.5" strokeDasharray="2 10" />
+      </svg>
+
+      <svg
+        className="pointer-events-none absolute bottom-20 right-10 opacity-[0.05] animate-[spin_40s_linear_infinite]"
+        width="140"
+        height="140"
+        viewBox="0 0 140 140"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="70" cy="70" r="69" stroke="#d97706" strokeWidth="0.75" strokeDasharray="6 10" />
+        <circle cx="70" cy="70" r="48" stroke="#d97706" strokeWidth="0.5" strokeDasharray="3 14" />
+      </svg>
 
       <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3">
         <span className="w-5 h-px bg-amber-700/60" />
