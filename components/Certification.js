@@ -20,13 +20,15 @@ const certs = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="px-6 sm:px-14 lg:px-24 py-28 lg:py-44 bg-[#1c1917] relative overflow-hidden">
+    <section id="certifications" className="px-6 sm:px-14 lg:px-24 py-28 lg:py-44 bg-[#1c1917] relative">
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5" />
 
       {/* bg: amber radial glow — top-right */}
-      <div className="pointer-events-none absolute -top-32 -right-32 w-[500px] h-[500px] rounded-full bg-amber-700/5 blur-[100px]" />
+      <div className="pointer-events-none absolute -top-32 -right-32 w-[600px] h-[600px] rounded-full bg-amber-700/10 blur-[120px]" />
       {/* bg: amber radial glow — bottom-left */}
-      <div className="pointer-events-none absolute -bottom-32 -left-32 w-[350px] h-[350px] rounded-full bg-amber-600/4 blur-[100px]" />
+      <div className="pointer-events-none absolute -bottom-32 -left-32 w-[500px] h-[500px] rounded-full bg-amber-600/8 blur-[130px]" />
+      {/* bg: amber radial glow — center */}
+      <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[300px] rounded-full bg-amber-700/5 blur-[100px]" />
 
       {/* bg: decorative SVG grid */}
       <svg

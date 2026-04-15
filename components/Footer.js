@@ -44,11 +44,11 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1c1917] relative overflow-hidden">
+    <footer className="bg-[#1c1917] relative">
       {/* shared bg effects across whole footer */}
-      <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full bg-amber-700/6 blur-[120px]" />
-      <div className="pointer-events-none absolute bottom-0 -left-40 w-[400px] h-[400px] rounded-full bg-amber-600/4 blur-[100px]" />
-      <div className="pointer-events-none absolute bottom-0 -right-40 w-[350px] h-[350px] rounded-full bg-amber-700/3 blur-[100px]" />
+      <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] rounded-full bg-amber-700/10 blur-[130px]" />
+      <div className="pointer-events-none absolute bottom-0 -left-40 w-[500px] h-[500px] rounded-full bg-amber-600/8 blur-[120px]" />
+      <div className="pointer-events-none absolute bottom-0 -right-40 w-[450px] h-[450px] rounded-full bg-amber-700/6 blur-[120px]" />
 
       <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.025]" xmlns="http://www.w3.org/2000/svg">
         <defs>
