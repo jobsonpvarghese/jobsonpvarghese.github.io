@@ -10,7 +10,7 @@ const navLinks = [
 const socials = [
   {
     name: "LinkedIn",
-    handle: "/in/jobsonvarghese",
+    handle: "/in/jobsonpvarghese",
     href: "https://linkedin.com/in/jobsonvarghese",
     icon: (
       <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current">
@@ -29,7 +29,6 @@ const socials = [
       </svg>
     )
   },
-
   {
     name: "Email",
     handle: "jobsonvarghese1@email.com",
@@ -45,39 +44,74 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer>
-      {/* CTA banner */}
-      <div
-        className="bg-amber-700 px-6 sm:px-14 lg:px-24 py-14
-                      flex flex-col sm:flex-row items-start sm:items-center
-                      justify-between gap-8"
+    <footer className="bg-[#1c1917] relative overflow-hidden">
+      {/* shared bg effects across whole footer */}
+      <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[400px] rounded-full bg-amber-700/6 blur-[120px]" />
+      <div className="pointer-events-none absolute bottom-0 -left-40 w-[400px] h-[400px] rounded-full bg-amber-600/4 blur-[100px]" />
+      <div className="pointer-events-none absolute bottom-0 -right-40 w-[350px] h-[350px] rounded-full bg-amber-700/3 blur-[100px]" />
+
+      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.025]" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="footer-grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#e7e5e4" strokeWidth="0.5" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#footer-grid)" />
+      </svg>
+
+      <svg
+        className="pointer-events-none absolute top-10 right-16 opacity-[0.05] animate-[spin_50s_linear_infinite]"
+        width="180"
+        height="180"
+        viewBox="0 0 180 180"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <h2 className="font-serif text-3xl sm:text-4xl font-normal text-[#f5f0e8] leading-tight">
-          Let's build something
-          <br />
-          <em className="italic">great together.</em>
-        </h2>
-        <a
-          href="mailto:jobson@email.com"
-          className="border border-[#f5f0e8]/50 text-[#f5f0e8] text-[11px]
-                     tracking-widest uppercase px-7 py-4 shrink-0
-                     hover:bg-[#f5f0e8] hover:text-amber-700 transition-colors duration-200"
-        >
-          Get in touch ↗
-        </a>
+        <circle cx="90" cy="90" r="89" stroke="#d97706" strokeWidth="0.75" strokeDasharray="6 10" />
+        <circle cx="90" cy="90" r="62" stroke="#d97706" strokeWidth="0.5" strokeDasharray="3 14" />
+      </svg>
+
+      {/* CTA section */}
+      <div className="relative px-6 sm:px-14 lg:px-24 pt-32 pb-28 border-b border-white/5">
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
+          <div>
+            <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-5">
+              <span className="w-5 h-px bg-amber-700/60" />
+              Let's collaborate
+            </p>
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-stone-50 leading-[1.05]">
+              Let's build something
+              <br />
+              <em className="italic text-amber-600">great together.</em>
+            </h2>
+          </div>
+
+          <div className="flex flex-col gap-4 lg:items-end shrink-0">
+            <a
+              href="mailto:jobson@email.com"
+              className="inline-flex items-center gap-3 border border-amber-600/40 text-amber-600
+                         text-[11px] tracking-widest uppercase px-8 py-4
+                         hover:bg-amber-600 hover:text-[#131110] hover:border-amber-600
+                         transition-all duration-300"
+            >
+              Get in touch ↗
+            </a>
+            <p className="text-[11px] text-stone-700 tracking-wide lg:text-right">jobsonvarghese1@email.com</p>
+          </div>
+        </div>
       </div>
 
       {/* main footer */}
-      <div className="bg-stone-900 px-6 sm:px-14 lg:px-24 pt-16 pb-8">
+      <div className="relative px-6 sm:px-14 lg:px-24 pt-20 pb-12">
         {/* top grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
           {/* brand */}
           <div>
-            <h3 className="font-serif text-4xl font-normal text-[#f5f0e8] leading-none mb-2">
-              Jobson <em className="italic text-amber-700">Varghese</em>
+            <h3 className="font-serif text-4xl font-normal text-stone-50 leading-none mb-2">
+              Jobson <em className="italic text-amber-600">Varghese</em>
             </h3>
-            <p className="text-[11px] tracking-widest uppercase text-stone-600 mb-5">Designer · Developer</p>
-            <div className="flex items-center gap-2 text-xs text-stone-500">
+            <p className="text-[11px] tracking-widest uppercase text-stone-700 mb-5">Designer · Developer</p>
+            <div className="flex items-center gap-2 text-xs text-stone-600">
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
               Available for new projects
             </div>
@@ -85,22 +119,17 @@ export default function Footer() {
 
           {/* nav */}
           <div>
-            <p className="text-[10px] tracking-widest uppercase text-amber-700 mb-5">Navigation</p>
+            <p className="text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">Navigation</p>
             <div className="flex flex-col gap-2.5">
               {navLinks.map(link => (
                 <a
                   key={link.href}
                   href={link.href}
-                  className="text-sm text-stone-500 hover:text-[#f5f0e8] transition-colors
+                  className="text-sm text-stone-600 hover:text-stone-50 transition-colors
                              flex items-center gap-2 group"
                 >
                   {link.label}
-                  <span
-                    className="opacity-0 group-hover:opacity-100 text-amber-700
-                                   transition-opacity text-xs"
-                  >
-                    ↗
-                  </span>
+                  <span className="opacity-0 group-hover:opacity-100 text-amber-600 transition-opacity text-xs">↗</span>
                 </a>
               ))}
             </div>
@@ -108,26 +137,21 @@ export default function Footer() {
 
           {/* socials */}
           <div>
-            <p className="text-[10px] tracking-widest uppercase text-amber-700 mb-5">Connect</p>
-            <div className="flex flex-col gap-1.5">
+            <p className="text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">Connect</p>
+            <div className="flex flex-col gap-px bg-stone-800/60">
               {socials.map(s => (
                 <a
                   key={s.name}
                   href={s.href}
                   target={s.href.startsWith("http") ? "_blank" : undefined}
                   rel="noreferrer"
-                  className="flex items-center gap-3 px-4 py-3 border border-stone-800
-                             text-stone-500 hover:border-amber-700/40 hover:bg-amber-700/5
-                             hover:text-[#f5f0e8] transition-all duration-200 group"
+                  className="flex items-center gap-3 px-4 py-3 bg-[#1c1917]
+                             text-stone-600 hover:bg-[#1c1917] hover:text-stone-50
+                             transition-all duration-200 group"
                 >
-                  <span className="text-stone-600 group-hover:text-amber-700 transition-colors">{s.icon}</span>
+                  <span className="text-stone-700 group-hover:text-amber-600 transition-colors">{s.icon}</span>
                   <span className="text-sm flex-1">{s.name}</span>
-                  <span
-                    className="text-[11px] text-stone-700 group-hover:text-stone-500
-                                   transition-colors"
-                  >
-                    {s.handle}
-                  </span>
+                  <span className="text-[11px] text-stone-800 group-hover:text-stone-600 transition-colors">{s.handle}</span>
                 </a>
               ))}
             </div>
@@ -135,20 +159,17 @@ export default function Footer() {
         </div>
 
         {/* divider */}
-        <div className="h-px bg-stone-800 mb-7" />
+        <div className="h-px bg-white/5 mb-7" />
 
         {/* bottom bar */}
-        <div
-          className="flex flex-col sm:flex-row justify-between items-start
-                        sm:items-center gap-3"
-        >
-          <p className="text-[11px] text-stone-700 tracking-wide">
-            © 2025 <span className="text-amber-700">Jobson Varghese</span> · Designed & built with love in Next.js
+        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+          <p className="text-[11px] text-stone-800 tracking-wide">
+            © 2025 <span className="text-amber-600/70">Jobson Varghese</span> · Designed & built with love in Next.js
           </p>
           <a
             href="#hero"
-            className="text-[11px] tracking-widest uppercase text-stone-600
-                       hover:text-amber-700 transition-colors flex items-center gap-2"
+            className="text-[11px] tracking-widest uppercase text-stone-700
+                       hover:text-amber-600 transition-colors flex items-center gap-2"
           >
             Back to top ↑
           </a>

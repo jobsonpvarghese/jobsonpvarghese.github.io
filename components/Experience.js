@@ -1,6 +1,6 @@
 export default function Experience({ data }) {
   return (
-    <section id="experience" className="px-6 sm:px-14 lg:px-24 py-20 lg:py-52 bg-[#1c1917] relative overflow-hidden">
+    <section id="experience" className="px-6 sm:px-14 lg:px-24 py-28 lg:py-52 bg-[#1c1917] relative overflow-hidden">
       {/* top border */}
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5" />
 
