@@ -229,9 +229,10 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/components/Experience.js [app-client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-const e = new Error("Could not parse module '[project]/components/Experience.js'\n\n'import', and 'export' cannot be used outside of module code");
-e.code = 'MODULE_UNPARSABLE';
-throw e;
+g;
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
 }),
 "[project]/components/Skills.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
@@ -241,13 +242,7 @@ __turbopack_context__.s([
     ()=>Skills
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module '@/hooks/useScrollAnimation'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
 ;
-var _s = __turbopack_context__.k.signature();
 const skills = [
     {
         title: "Technical Support & Troubleshooting",
@@ -312,11 +307,7 @@ const skills = [
         ]
     }
 ];
-'use client';
-;
 function Skills() {
-    _s();
-    const headingRef = useScrollAnimation();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "skills",
         className: "px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative",
@@ -325,12 +316,11 @@ function Skills() {
                 className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10"
             }, void 0, false, {
                 fileName: "[project]/components/Skills.js",
-                lineNumber: 49,
+                lineNumber: 44,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                ref: headingRef,
-                className: "scroll-animate mb-12",
+                className: "mb-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-400 mb-3",
@@ -339,14 +329,14 @@ function Skills() {
                                 className: "w-5 h-px bg-amber-700/60"
                             }, void 0, false, {
                                 fileName: "[project]/components/Skills.js",
-                                lineNumber: 54,
+                                lineNumber: 49,
                                 columnNumber: 11
                             }, this),
                             "Capabilities"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Skills.js",
-                        lineNumber: 53,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -358,33 +348,33 @@ function Skills() {
                                 children: "expertise"
                             }, void 0, false, {
                                 fileName: "[project]/components/Skills.js",
-                                lineNumber: 58,
+                                lineNumber: 53,
                                 columnNumber: 20
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Skills.js",
-                        lineNumber: 57,
+                        lineNumber: 52,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Skills.js",
-                lineNumber: 52,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "scroll-animate bg-stone-900 p-7 sm:row-span-2 hover:-translate-y-1 transition-transform duration-300 order-first",
+                        className: "bg-stone-900 p-7 sm:row-span-2 hover:-translate-y-1 transition-transform duration-300 order-first",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "font-serif text-7xl lg:text-8xl font-normal text-stone-900/10 leading-none mb-3 select-none",
                                 children: "01"
                             }, void 0, false, {
                                 fileName: "[project]/components/Skills.js",
-                                lineNumber: 67,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -392,7 +382,7 @@ function Skills() {
                                 children: "Core Strength"
                             }, void 0, false, {
                                 fileName: "[project]/components/Skills.js",
-                                lineNumber: 69,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -401,14 +391,14 @@ function Skills() {
                                     "Technical Support &",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/components/Skills.js",
-                                        lineNumber: 72,
+                                        lineNumber: 67,
                                         columnNumber: 32
                                     }, this),
                                     "Troubleshooting"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Skills.js",
-                                lineNumber: 71,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -418,22 +408,22 @@ function Skills() {
                                         children: pill
                                     }, i, false, {
                                         fileName: "[project]/components/Skills.js",
-                                        lineNumber: 78,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/Skills.js",
-                                lineNumber: 76,
+                                lineNumber: 71,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Skills.js",
-                        lineNumber: 65,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this),
                     skills.slice(1).map((skill, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "scroll-animate bg-white p-6 hover:-translate-y-1 transition-transform duration-300 cursor-default",
+                            className: "bg-white p-6 hover:-translate-y-1 transition-transform duration-300 cursor-default",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "font-serif text-5xl font-normal text-stone-200 leading-none mb-3 select-none",
@@ -443,7 +433,7 @@ function Skills() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Skills.js",
-                                    lineNumber: 93,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -451,7 +441,7 @@ function Skills() {
                                     children: skill.category
                                 }, void 0, false, {
                                     fileName: "[project]/components/Skills.js",
-                                    lineNumber: 95,
+                                    lineNumber: 90,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -459,7 +449,7 @@ function Skills() {
                                     children: skill.title
                                 }, void 0, false, {
                                     fileName: "[project]/components/Skills.js",
-                                    lineNumber: 97,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -469,38 +459,33 @@ function Skills() {
                                             children: pill
                                         }, j, false, {
                                             fileName: "[project]/components/Skills.js",
-                                            lineNumber: 101,
+                                            lineNumber: 96,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Skills.js",
-                                    lineNumber: 99,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, i, true, {
                             fileName: "[project]/components/Skills.js",
-                            lineNumber: 91,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Skills.js",
-                lineNumber: 63,
+                lineNumber: 58,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Skills.js",
-        lineNumber: 47,
+        lineNumber: 42,
         columnNumber: 5
     }, this);
 }
-_s(Skills, "2Rco+eP+55Z7nIbVLyvR4p2luy0=", false, function() {
-    return [
-        useScrollAnimation
-    ];
-});
 _c = Skills;
 var _c;
 __turbopack_context__.k.register(_c, "Skills");
@@ -511,262 +496,226 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/Education.js [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// components/Education.jsx
 __turbopack_context__.s([
     "default",
     ()=>Education
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module '@/hooks/useScrollAnimation'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
-;
-var _s = __turbopack_context__.k.signature();
-// components/Education.jsx
-'use client';
 ;
 function Education() {
-    _s();
-    const headingRef = useScrollAnimation();
-    const gridRef = useScrollAnimation();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "education",
-        className: "px-12 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative",
+        className: "px-6 sm:px-10 lg:px-14 py-16 lg:py-48 bg-[#1c1917] relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10"
+                className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5"
             }, void 0, false, {
+                fileName: "[project]/components/Education.js",
+                lineNumber: 5,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                className: "flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "w-5 h-px bg-amber-700/60"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Education.js",
+                        lineNumber: 8,
+                        columnNumber: 9
+                    }, this),
+                    "Academic background"
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Education.js",
+                lineNumber: 7,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                className: "font-serif text-4xl sm:text-5xl font-normal text-stone-50 leading-none mb-10",
+                children: [
+                    "My ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
+                        className: "italic text-amber-600",
+                        children: "education"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Education.js",
+                        lineNumber: 12,
+                        columnNumber: 12
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/components/Education.js",
                 lineNumber: 11,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                ref: headingRef,
-                className: "scroll-animate",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-400 mb-3",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "w-5 h-px bg-amber-700/60"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 15,
-                                columnNumber: 11
-                            }, this),
-                            "Academic background"
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Education.js",
-                        lineNumber: 14,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "font-serif text-4xl sm:text-5xl font-normal text-stone-900 leading-none mb-12",
-                        children: [
-                            "My ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
-                                className: "italic text-amber-700",
-                                children: "education"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 19,
-                                columnNumber: 14
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Education.js",
-                        lineNumber: 18,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/Education.js",
-                lineNumber: 13,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                ref: gridRef,
-                className: "scroll-animate grid grid-cols-1 sm:grid-cols-2 gap-0.5",
+                className: "grid grid-cols-1 sm:grid-cols-2 gap-px bg-stone-800",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-stone-900 p-8 relative overflow-hidden hover:-translate-y-1 transition-transform duration-300 cursor-default",
+                        className: "bg-[#1c1917] p-8 relative overflow-hidden hover:bg-[#221e1b] transition-colors duration-300 cursor-default group",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "font-serif text-[96px] text-stone-900/10 absolute bottom-0 right-3 leading-none select-none pointer-events-none",
+                                className: "font-serif text-[80px] italic text-stone-800 absolute bottom-[-10px] right-4 leading-none select-none pointer-events-none group-hover:text-stone-700/40 transition-colors duration-300",
                                 children: "01"
                             }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 27,
+                                lineNumber: 19,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-between items-start mb-7",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] tracking-widest uppercase text-amber-700 border border-amber-700/30 px-3 py-1",
-                                        children: "Post Graduate"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 29,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-[11px] text-stone-600 text-right leading-relaxed",
-                                        children: [
-                                            "May 2022",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                                fileName: "[project]/components/Education.js",
-                                                lineNumber: 32,
-                                                columnNumber: 15
-                                            }, this),
-                                            "Aug 2023"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 30,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-4",
+                                children: "May 2022 — Aug 2023"
+                            }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 28,
+                                lineNumber: 23,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1 font-sans mb-5",
+                                children: "Post Graduate"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 25,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "font-serif text-[22px] text-[#f5f0e8] leading-tight mb-3",
+                                className: "font-serif text-[20px] text-stone-50 leading-snug mb-5",
                                 children: "Post Graduate Diploma in Mobile Application Development"
                             }, void 0, false, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 36,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[11px] tracking-widest uppercase text-stone-600 mb-2",
-                                children: "Fanshawe College"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 37,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-stone-600 flex items-center gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-4 h-px bg-amber-700 inline-block"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 39,
-                                        columnNumber: 13
-                                    }, this),
-                                    "London, Ontario, Canada"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/Education.js",
-                        lineNumber: 25,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "bg-white p-8 hover:-translate-y-1 transition-transform duration-300 cursor-default",
-                        children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "flex justify-between items-start mb-7",
+                                className: "mt-auto",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-[10px] tracking-widest uppercase text-amber-700 border border-amber-700/30 px-3 py-1",
-                                        children: "Bachelor's"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-2",
+                                        children: "Fanshawe College"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Education.js",
-                                        lineNumber: 47,
+                                        lineNumber: 32,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-[11px] text-stone-400 text-right leading-relaxed",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-stone-600 font-sans flex items-center gap-2",
                                         children: [
-                                            "Aug 2017",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "w-3 h-px bg-amber-700 inline-block"
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Education.js",
-                                                lineNumber: 50,
+                                                lineNumber: 34,
                                                 columnNumber: 15
                                             }, this),
-                                            "May 2021"
+                                            "London, Ontario, Canada"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Education.js",
-                                        lineNumber: 48,
+                                        lineNumber: 33,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Education.js",
-                                lineNumber: 46,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "font-serif text-[22px] text-stone-900 leading-tight mb-3",
-                                children: "Bachelor of Technology in Computer Science & Engineering"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 54,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-[11px] tracking-widest uppercase text-stone-400 mb-2",
-                                children: "St. Joseph's College of Engineering & Technology"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 55,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm text-stone-400 flex items-center gap-2",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "w-4 h-px bg-amber-700 inline-block"
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Education.js",
-                                        lineNumber: 57,
-                                        columnNumber: 13
-                                    }, this),
-                                    "Palai, Kerala, India"
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/Education.js",
-                                lineNumber: 56,
+                                lineNumber: 31,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Education.js",
-                        lineNumber: 45,
+                        lineNumber: 17,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "bg-[#221e1b] p-8 relative overflow-hidden hover:bg-[#26211d] transition-colors duration-300 cursor-default group",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "font-serif text-[80px] italic text-stone-800 absolute bottom-[-10px] right-4 leading-none select-none pointer-events-none group-hover:text-stone-700/40 transition-colors duration-300",
+                                children: "02"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-4",
+                                children: "Aug 2017 — May 2021"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 47,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1 font-sans mb-5",
+                                children: "Bachelor's"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "font-serif text-[20px] text-stone-50 leading-snug mb-5",
+                                children: "Bachelor of Technology in Computer Science & Engineering"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 53,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-auto",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-[10px] tracking-widest uppercase text-stone-600 font-sans mb-2",
+                                        children: "St. Joseph's College of Engineering & Technology"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Education.js",
+                                        lineNumber: 56,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "text-sm text-stone-600 font-sans flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "w-3 h-px bg-amber-700 inline-block"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Education.js",
+                                                lineNumber: 58,
+                                                columnNumber: 15
+                                            }, this),
+                                            "Palai, Kerala, India"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/Education.js",
+                                        lineNumber: 57,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Education.js",
+                                lineNumber: 55,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Education.js",
+                        lineNumber: 41,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Education.js",
-                lineNumber: 23,
+                lineNumber: 15,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Education.js",
-        lineNumber: 10,
+        lineNumber: 4,
         columnNumber: 5
     }, this);
 }
-_s(Education, "tMe2dYcaVbV4D6tdtlpURHoVPbQ=", false, function() {
-    return [
-        useScrollAnimation,
-        useScrollAnimation
-    ];
-});
 _c = Education;
 var _c;
 __turbopack_context__.k.register(_c, "Education");
@@ -782,16 +731,8 @@ __turbopack_context__.s([
     ()=>Footer
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module '@/hooks/useScrollAnimation'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
 ;
-var _s = __turbopack_context__.k.signature();
 // components/Footer.jsx
-'use client';
-;
 const navLinks = [
     {
         label: "Home",
@@ -827,7 +768,7 @@ const socials = [
                     d: "M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.js",
-                    lineNumber: 20,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
@@ -836,13 +777,13 @@ const socials = [
                     r: "2"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.js",
-                    lineNumber: 21,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer.js",
-            lineNumber: 19,
+            lineNumber: 16,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     },
@@ -857,12 +798,12 @@ const socials = [
                 d: "M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
             }, void 0, false, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 31,
+                lineNumber: 28,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         }, void 0, false, {
             fileName: "[project]/components/Footer.js",
-            lineNumber: 30,
+            lineNumber: 27,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     },
@@ -878,35 +819,29 @@ const socials = [
                     d: "M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.js",
-                    lineNumber: 42,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("polyline", {
                     points: "22,6 12,13 2,6"
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.js",
-                    lineNumber: 43,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer.js",
-            lineNumber: 41,
+            lineNumber: 38,
             columnNumber: 7
         }, ("TURBOPACK compile-time value", void 0))
     }
 ];
 function Footer() {
-    _s();
-    const ctaRef = useScrollAnimation();
-    const brandRef = useScrollAnimation();
-    const navRef = useScrollAnimation();
-    const socialsRef = useScrollAnimation();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                ref: ctaRef,
-                className: "scroll-animate bg-amber-700 px-6 sm:px-10 lg:px-14 py-14 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8",
+                className: "bg-amber-700 px-6 sm:px-10 lg:px-14 py-14 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         className: "font-serif text-3xl sm:text-4xl font-normal text-[#f5f0e8] leading-tight",
@@ -914,7 +849,7 @@ function Footer() {
                             "Let's build something",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 66,
+                                lineNumber: 57,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -922,13 +857,13 @@ function Footer() {
                                 children: "great together."
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 67,
+                                lineNumber: 58,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 64,
+                        lineNumber: 55,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -937,13 +872,13 @@ function Footer() {
                         children: "Get in touch ↗"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 69,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 58,
+                lineNumber: 50,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -953,8 +888,6 @@ function Footer() {
                         className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                ref: brandRef,
-                                className: "scroll-animate",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "font-serif text-4xl font-normal text-[#f5f0e8] leading-none mb-2",
@@ -965,13 +898,13 @@ function Footer() {
                                                 children: "Varghese"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.js",
-                                                lineNumber: 86,
+                                                lineNumber: 77,
                                                 columnNumber: 22
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 85,
+                                        lineNumber: 76,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -979,7 +912,7 @@ function Footer() {
                                         children: "Designer · Developer"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 88,
+                                        lineNumber: 79,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -989,32 +922,30 @@ function Footer() {
                                                 className: "w-2 h-2 rounded-full bg-green-500 animate-pulse"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.js",
-                                                lineNumber: 90,
+                                                lineNumber: 81,
                                                 columnNumber: 15
                                             }, this),
                                             "Available for new projects"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 89,
+                                        lineNumber: 80,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 84,
+                                lineNumber: 75,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                ref: navRef,
-                                className: "scroll-animate",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[10px] tracking-widest uppercase text-amber-700 mb-5",
                                         children: "Navigation"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 97,
+                                        lineNumber: 88,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1029,36 +960,34 @@ function Footer() {
                                                         children: "↗"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.js",
-                                                        lineNumber: 107,
+                                                        lineNumber: 98,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, link.href, true, {
                                                 fileName: "[project]/components/Footer.js",
-                                                lineNumber: 100,
+                                                lineNumber: 91,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 98,
+                                        lineNumber: 89,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 96,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                ref: socialsRef,
-                                className: "scroll-animate",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-[10px] tracking-widest uppercase text-amber-700 mb-5",
                                         children: "Connect"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 120,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1074,7 +1003,7 @@ function Footer() {
                                                         children: s.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.js",
-                                                        lineNumber: 132,
+                                                        lineNumber: 123,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1082,7 +1011,7 @@ function Footer() {
                                                         children: s.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.js",
-                                                        lineNumber: 133,
+                                                        lineNumber: 124,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1090,37 +1019,37 @@ function Footer() {
                                                         children: s.handle
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.js",
-                                                        lineNumber: 134,
+                                                        lineNumber: 125,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, s.name, true, {
                                                 fileName: "[project]/components/Footer.js",
-                                                lineNumber: 123,
+                                                lineNumber: 114,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 121,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 119,
+                                lineNumber: 110,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 82,
+                        lineNumber: 73,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "h-px bg-stone-800 mb-7"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 147,
+                        lineNumber: 138,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1135,52 +1064,44 @@ function Footer() {
                                         children: "Jobson Varghese"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Footer.js",
-                                        lineNumber: 155,
+                                        lineNumber: 146,
                                         columnNumber: 20
                                     }, this),
                                     " · Designed & built with love in Next.js"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 154,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: "#hero",
                                 className: "text-[11px] tracking-widest uppercase text-stone-600 hover:text-amber-700 transition-colors flex items-center gap-2",
-                                children: "Home ↑"
+                                children: "Back to top ↑"
                             }, void 0, false, {
                                 fileName: "[project]/components/Footer.js",
-                                lineNumber: 157,
+                                lineNumber: 148,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Footer.js",
-                        lineNumber: 150,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Footer.js",
-                lineNumber: 80,
+                lineNumber: 71,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Footer.js",
-        lineNumber: 56,
+        lineNumber: 48,
         columnNumber: 5
     }, this);
 }
-_s(Footer, "8ysJflqbVhgqFW4Q0U+4DTH3ilc=", false, function() {
-    return [
-        useScrollAnimation,
-        useScrollAnimation,
-        useScrollAnimation,
-        useScrollAnimation
-    ];
-});
 _c = Footer;
 var _c;
 __turbopack_context__.k.register(_c, "Footer");
@@ -1196,16 +1117,8 @@ __turbopack_context__.s([
     ()=>Certifications
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module '@/hooks/useScrollAnimation'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
 ;
-var _s = __turbopack_context__.k.signature();
 // components/Certifications.jsx
-'use client';
-;
 const certs = [
     {
         name: "UX Design Fundamentals",
@@ -1225,8 +1138,6 @@ const certs = [
     }
 ];
 function Certifications() {
-    _s();
-    const headingRef = useScrollAnimation();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "certifications",
         className: "px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative",
@@ -1235,15 +1146,13 @@ function Certifications() {
                 className: "absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10"
             }, void 0, false, {
                 fileName: "[project]/components/Certification.js",
-                lineNumber: 29,
+                lineNumber: 24,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10 lg:gap-16 items-start",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        ref: headingRef,
-                        className: "scroll-animate",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-400 mb-3",
@@ -1252,14 +1161,14 @@ function Certifications() {
                                         className: "w-5 h-px bg-amber-700/60"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Certification.js",
-                                        lineNumber: 35,
+                                        lineNumber: 30,
                                         columnNumber: 13
                                     }, this),
                                     "Credentials"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Certification.js",
-                                lineNumber: 34,
+                                lineNumber: 29,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1271,13 +1180,13 @@ function Certifications() {
                                         children: "certifications"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Certification.js",
-                                        lineNumber: 39,
+                                        lineNumber: 34,
                                         columnNumber: 16
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Certification.js",
-                                lineNumber: 38,
+                                lineNumber: 33,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1285,25 +1194,25 @@ function Certifications() {
                                 children: "Continuously expanding expertise through structured learning across UX, design, and product thinking."
                             }, void 0, false, {
                                 fileName: "[project]/components/Certification.js",
-                                lineNumber: 41,
+                                lineNumber: 36,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Certification.js",
-                        lineNumber: 33,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col gap-0.5",
                         children: certs.map((cert, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "scroll-animate bg-white px-6 py-5 flex items-center justify-between gap-4 group relative overflow-hidden cursor-default hover:bg-stone-900 transition-colors duration-200",
+                                className: "bg-white px-6 py-5 flex items-center justify-between gap-4 group relative overflow-hidden cursor-default hover:bg-stone-900 transition-colors duration-200",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute left-0 top-0 bottom-0 w-0 bg-amber-700 group-hover:w-0.5 transition-all duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Certification.js",
-                                        lineNumber: 56,
+                                        lineNumber: 51,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1313,7 +1222,7 @@ function Certifications() {
                                                 children: cert.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Certification.js",
-                                                lineNumber: 59,
+                                                lineNumber: 54,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1321,13 +1230,13 @@ function Certifications() {
                                                 children: cert.issuer
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Certification.js",
-                                                lineNumber: 65,
+                                                lineNumber: 60,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Certification.js",
-                                        lineNumber: 58,
+                                        lineNumber: 53,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1335,38 +1244,33 @@ function Certifications() {
                                         children: "↗"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Certification.js",
-                                        lineNumber: 73,
+                                        lineNumber: 68,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, i, true, {
                                 fileName: "[project]/components/Certification.js",
-                                lineNumber: 49,
+                                lineNumber: 44,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Certification.js",
-                        lineNumber: 47,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Certification.js",
-                lineNumber: 31,
+                lineNumber: 26,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Certification.js",
-        lineNumber: 28,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
-_s(Certifications, "2Rco+eP+55Z7nIbVLyvR4p2luy0=", false, function() {
-    return [
-        useScrollAnimation
-    ];
-});
 _c = Certifications;
 var _c;
 __turbopack_context__.k.register(_c, "Certifications");

@@ -1,7 +1,15 @@
 // Hero.jsx
 export default function Hero() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8] font-sans">
+    <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8] font-sans relative">
+      {/* Paper grain background filter */}
+      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.2] z-100" aria-hidden="true">
+        <filter id="papergrain">
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" />
+          <feColorMatrix type="saturate" values="0" />
+        </filter>
+        <rect width="100%" height="100%" filter="url(#papergrain)" />
+      </svg>
       {/* Image — first in DOM so it's on top on mobile */}
       <div className="relative overflow-hidden h-[100vw] sm:h-[60vw] lg:h-auto lg:min-h-full lg:order-2">
         <img
@@ -28,7 +36,12 @@ export default function Hero() {
             I'm Jobson Varghese — a product designer crafting engaging digital experiences.
           </p>
 
-          <div className="flex items-center gap-6 mb-20">
+          <div
+            className="flex items-center gap-6 mb-20"
+            style={{
+              zIndex: "200"
+            }}
+          >
             <a
               href="#work"
               className="bg-stone-900 text-[#f5f0e8] text-sm tracking-wide px-8 py-4 

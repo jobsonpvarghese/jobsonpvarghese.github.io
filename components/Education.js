@@ -2,6 +2,14 @@
 export default function Education() {
   return (
     <section id="education" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-48 bg-[#1c1917] relative">
+      {/* Paper grain background filter */}
+      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.1] z-100" aria-hidden="true">
+        <filter id="papergrain">
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" />
+          <feColorMatrix type="saturate" values="0" />
+        </filter>
+        <rect width="100%" height="100%" filter="url(#papergrain)" />
+      </svg>
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5" />
 
       <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3">

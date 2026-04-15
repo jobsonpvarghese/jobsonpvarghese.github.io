@@ -1,7 +1,83 @@
-{"timestamp":"00:00:00.650","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:01:36.675","source":"Server","level":"LOG","message":"✓ Compiled in 428ms"}
-{"timestamp":"00:03:29.496","source":"Server","level":"LOG","message":"✓ Compiled in 95ms"}
-{"timestamp":"00:03:52.109","source":"Server","level":"LOG","message":"✓ Compiled in 105ms"}
-{"timestamp":"00:07:27.391","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
-{"timestamp":"00:11:15.808","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
-{"timestamp":"00:11:54.281","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:00:00.588","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:46.801","source":"Server","level":"LOG","message":"✓ Compiled in 503ms"}
+{"timestamp":"00:01:56.128","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:02:05.956","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:03:52.129","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:04:02.420","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:05:53.067","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:07:38.086","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:08:36.606","source":"Server","level":"LOG","message":"✓ Compiled in 205ms"}
+{"timestamp":"00:08:36.635","source":"Browser","level":"ERROR","message":"./components/Skills.js:52:25\nUnexpected token. Did you mean `{'}'}` or `&rbrace;`?\n  50 |       </svg>\n  51 |\n> 52 |       {/* top border */}}\n     |                         ^\n  53 |       <div className=\"absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10\" />\n  54 |\n  55 |       {/* heading */}\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./components/Skills.js [Client Component Browser]\n    ./app/page.js [Client Component Browser]\n    ./app/page.js [Server Component]\n\n  Client Component SSR:\n    ./components/Skills.js [Client Component SSR]\n    ./app/page.js [Client Component SSR]\n    ./app/page.js [Server Component]"}
+{"timestamp":"00:08:36.638","source":"Server","level":"ERROR","message":"[browser] \"./components/Skills.js:52:25\\nUnexpected token. Did you mean `{'}'}` or `&rbrace;`?\\n  50 |       </svg>\\n  51 |\\n> 52 |       {/* top border */}}\\n     |                         ^\\n  53 |       <div className=\\\"absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10\\\" />\\n  54 |\\n  55 |       {/* heading */}\\n\\nParsing ecmascript source code failed\\n\\nImport traces:\\n  Client Component Browser:\\n    ./components/Skills.js [Client Component Browser]\\n    ./app/page.js [Client Component Browser]\\n    ./app/page.js [Server Component]\\n\\n  Client Component SSR:\\n    ./components/Skills.js [Client Component SSR]\\n    ./app/page.js [Client Component SSR]\\n    ./app/page.js [Server Component]\" \"\""}
+{"timestamp":"00:08:36.639","source":"Browser","level":"ERROR","message":"./components/Skills.js:52:25\nUnexpected token. Did you mean `{'}'}` or `&rbrace;`?\n  50 |       </svg>\n  51 |\n> 52 |       {/* top border */}}\n     |                         ^\n  53 |       <div className=\"absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10\" />\n  54 |\n  55 |       {/* heading */}\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./components/Skills.js [Client Component Browser]\n    ./app/page.js [Client Component Browser]\n    ./app/page.js [Server Component]\n\n  Client Component SSR:\n    ./components/Skills.js [Client Component SSR]\n    ./app/page.js [Client Component SSR]\n    ./app/page.js [Server Component] \"\""}
+{"timestamp":"00:08:36.673","source":"Browser","level":"ERROR","message":"./components/Skills.js:52:25\nUnexpected token. Did you mean `{'}'}` or `&rbrace;`?\n  50 |       </svg>\n  51 |\n> 52 |       {/* top border */}}\n     |                         ^\n  53 |       <div className=\"absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10\" />\n  54 |\n  55 |       {/* heading */}\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./components/Skills.js [Client Component Browser]\n    ./app/page.js [Client Component Browser]\n    ./app/page.js [Server Component]\n\n  Client Component SSR:\n    ./components/Skills.js [Client Component SSR]\n    ./app/page.js [Client Component SSR]\n    ./app/page.js [Server Component]"}
+{"timestamp":"00:08:36.673","source":"Server","level":"ERROR","message":"[browser] \"./components/Skills.js:52:25\\nUnexpected token. Did you mean `{'}'}` or `&rbrace;`?\\n  50 |       </svg>\\n  51 |\\n> 52 |       {/* top border */}}\\n     |                         ^\\n  53 |       <div className=\\\"absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10\\\" />\\n  54 |\\n  55 |       {/* heading */}\\n\\nParsing ecmascript source code failed\\n\\nImport traces:\\n  Client Component Browser:\\n    ./components/Skills.js [Client Component Browser]\\n    ./app/page.js [Client Component Browser]\\n    ./app/page.js [Server Component]\\n\\n  Client Component SSR:\\n    ./components/Skills.js [Client Component SSR]\\n    ./app/page.js [Client Component SSR]\\n    ./app/page.js [Server Component]\" \"\""}
+{"timestamp":"00:08:36.674","source":"Browser","level":"ERROR","message":"./components/Skills.js:52:25\nUnexpected token. Did you mean `{'}'}` or `&rbrace;`?\n  50 |       </svg>\n  51 |\n> 52 |       {/* top border */}}\n     |                         ^\n  53 |       <div className=\"absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10\" />\n  54 |\n  55 |       {/* heading */}\n\nParsing ecmascript source code failed\n\nImport traces:\n  Client Component Browser:\n    ./components/Skills.js [Client Component Browser]\n    ./app/page.js [Client Component Browser]\n    ./app/page.js [Server Component]\n\n  Client Component SSR:\n    ./components/Skills.js [Client Component SSR]\n    ./app/page.js [Client Component SSR]\n    ./app/page.js [Server Component] \"\""}
+{"timestamp":"00:09:09.962","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:10:27.041","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:10:33.431","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:10:45.513","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:12:03.230","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:12:03.759","source":"Browser","level":"ERROR","message":"uncaughtError: NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node."}
+{"timestamp":"00:12:06.457","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"00:12:06.499","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:12:25.115","source":"Server","level":"LOG","message":"✓ Compiled in 61ms"}
+{"timestamp":"00:12:36.742","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:12:43.762","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of null (reading 'enqueueModel')"}
+{"timestamp":"00:12:50.132","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload due to a runtime error."}
+{"timestamp":"00:12:50.209","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:12:54.068","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:13:00.346","source":"Server","level":"LOG","message":"✓ Compiled in 76ms"}
+{"timestamp":"00:14:59.354","source":"Server","level":"LOG","message":"✓ Compiled in 55ms"}
+{"timestamp":"00:22:07.827","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:25:50.951","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:26:01.953","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:26:11.753","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:26:43.496","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:27:01.017","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:29:29.761","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of null (reading 'enqueueModel')"}
+{"timestamp":"00:29:45.315","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:29:58.168","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:30:03.697","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:30:11.505","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}
+{"timestamp":"00:30:18.616","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:30:33.502","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:30:58.189","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:31:09.007","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:31:14.689","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:31:38.384","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:31:44.725","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:32:07.966","source":"Server","level":"LOG","message":"✓ Compiled in 30ms"}
+{"timestamp":"00:32:16.942","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:32:22.579","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:32:53.572","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:34:44.804","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:35:22.223","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:35:57.127","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:36:10.298","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:36:22.923","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:36:28.047","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:37:14.796","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:38:34.451","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:40:46.990","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:41:09.202","source":"Server","level":"LOG","message":"✓ Compiled in 37ms"}
+{"timestamp":"00:42:25.292","source":"Server","level":"LOG","message":"✓ Compiled in 70ms"}
+{"timestamp":"00:43:04.992","source":"Server","level":"LOG","message":"✓ Compiled in 42ms"}
+{"timestamp":"00:43:13.977","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:43:29.262","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:43:45.256","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:43:53.701","source":"Server","level":"LOG","message":"✓ Compiled in 44ms"}
+{"timestamp":"00:44:13.815","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:44:28.557","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:46:26.426","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:46:37.234","source":"Server","level":"LOG","message":"✓ Compiled in 38ms"}
+{"timestamp":"00:47:11.685","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:47:46.246","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:49:01.769","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"00:49:07.301","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:50:16.408","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
+{"timestamp":"00:51:16.841","source":"Server","level":"LOG","message":"✓ Compiled in 35ms"}
+{"timestamp":"00:51:42.925","source":"Server","level":"LOG","message":"✓ Compiled in 36ms"}
+{"timestamp":"00:51:49.287","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:52:08.816","source":"Server","level":"LOG","message":"✓ Compiled in 34ms"}
+{"timestamp":"00:53:03.270","source":"Server","level":"LOG","message":"✓ Compiled in 43ms"}

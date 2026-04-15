@@ -39,7 +39,15 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-20 bg-[#f5f0e8] relative">
+    <section id="skills" className="px-6 sm:px-10 lg:px-14 py-16 lg:py-40 bg-[#f5f0e8] relative">
+      {/* Paper grain background filter */}
+      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.2] z-100" aria-hidden="true">
+        <filter id="papergrain">
+          <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch" />
+          <feColorMatrix type="saturate" values="0" />
+        </filter>
+        <rect width="100%" height="100%" filter="url(#papergrain)" />
+      </svg>
       {/* top border */}
       <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-stone-900/10" />
 
@@ -57,7 +65,7 @@ export default function Skills() {
       {/* masonry grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
         {/* featured card — spans 2 rows on lg */}
-        <div className="bg-stone-900 p-7 sm:row-span-2 hover:-translate-y-1 transition-transform duration-300 order-first">
+        <div className="bg-stone-900 p-7 sm:row-span-2 hover:-translate-y-1 transition-transform duration-300 order-first cursor-pointer">
           {/* large faded number */}
           <div className="font-serif text-7xl lg:text-8xl font-normal text-stone-900/10 leading-none mb-3 select-none">01</div>
 
@@ -73,7 +81,7 @@ export default function Skills() {
               <span
                 key={i}
                 className="text-[11px] text-stone-500 border border-stone-700 px-3 py-1
-                           hover:border-amber-700 hover:text-amber-700 transition-colors cursor-default"
+                           hover:border-amber-700 hover:text-amber-700 transition-colors cursor-pointer"
               >
                 {pill}
               </span>
@@ -83,7 +91,7 @@ export default function Skills() {
 
         {/* remaining cards */}
         {skills.slice(1).map((skill, i) => (
-          <div key={i} className="bg-white p-6 hover:-translate-y-1 transition-transform duration-300 cursor-default">
+          <div key={i} className="bg-white p-6 hover:-translate-y-1 transition-transform duration-300 cursor-pointer">
             {/* faded number */}
             <div className="font-serif text-5xl font-normal text-stone-200 leading-none mb-3 select-none">0{i + 2}</div>
 
@@ -96,7 +104,7 @@ export default function Skills() {
                 <span
                   key={j}
                   className="text-[11px] text-stone-400 border border-stone-200 px-3 py-1
-                             hover:border-amber-700 hover:text-amber-700 transition-colors cursor-default"
+                             hover:border-amber-700 hover:text-amber-700 transition-colors cursor-pointer"
                 >
                   {pill}
                 </span>
