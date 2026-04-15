@@ -36,6 +36,7 @@ export default function Hero() {
             I'm Jobson Varghese — a product designer crafting engaging digital experiences.
           </p>
 
+          {/* X index css added inline as tailwind overriding elsehwhere */}
           <div
             className="flex items-center gap-6 mb-20"
             style={{
