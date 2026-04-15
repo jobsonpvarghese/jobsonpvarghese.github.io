@@ -1,7 +1,7 @@
 // Hero.jsx
 export default function Hero() {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8] font-sans relative">
+    <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8] font-sans relative" id="hero">
       {/* Paper grain background filter */}
       <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.2] z-100" aria-hidden="true">
         <filter id="papergrain">
@@ -15,7 +15,7 @@ export default function Hero() {
         <img
           src="/img/hero.png"
           alt="Portrait"
-          className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-[6000ms]"
+          className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-[6000ms] "
         />
         <div className="absolute bottom-8 left-8 bg-[#f5f0e8] px-5 py-3 text-[11px] tracking-widest uppercase">
           <span className="text-amber-900 font-bold">Jobson Varghese</span>

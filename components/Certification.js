@@ -53,7 +53,7 @@ export default function Certifications() {
               key={i}
               className="bg-white px-6 py-5 flex items-center justify-between gap-4
                          group relative overflow-hidden cursor-default
-                         hover:bg-stone-900 transition-colors duration-200"
+                         hover:bg-stone-900 transition-colors duration-200 cursor-pointer"
             >
               {/* amber left bar */}
               <div className="absolute left-0 top-0 bottom-0 w-0 bg-amber-700 group-hover:w-0.5 transition-all duration-300" />

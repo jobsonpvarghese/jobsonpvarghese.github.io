@@ -84,6 +84,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8] font-sans relative",
+        id: "hero",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                 className: "pointer-events-none absolute inset-0 w-full h-full opacity-[0.2] z-100",
@@ -137,7 +138,7 @@ function Hero() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: "/img/hero.png",
                         alt: "Portrait",
-                        className: "w-full h-full object-cover object-top hover:scale-105 transition-transform duration-[6000ms]"
+                        className: "w-full h-full object-cover object-top hover:scale-105 transition-transform duration-[6000ms] "
                     }, void 0, false, {
                         fileName: "[project]/components/Hero.js",
                         lineNumber: 15,
@@ -1718,7 +1719,7 @@ function Certifications() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex flex-col gap-0.5",
                         children: certs.map((cert, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "bg-white px-6 py-5 flex items-center justify-between gap-4 group relative overflow-hidden cursor-default hover:bg-stone-900 transition-colors duration-200",
+                                className: "bg-white px-6 py-5 flex items-center justify-between gap-4 group relative overflow-hidden cursor-default hover:bg-stone-900 transition-colors duration-200 cursor-pointer",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute left-0 top-0 bottom-0 w-0 bg-amber-700 group-hover:w-0.5 transition-all duration-300"
