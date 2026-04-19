@@ -93,7 +93,7 @@ export default function Skills() {
           <span className="w-5 h-px bg-amber-700/60" />
           Capabilities
         </p>
-        <h2 className="font-serif text-4xl sm:text-5xl font-normal text-stone-50 leading-none">
+        <h2 className="text-4xl sm:text-5xl font-normal text-stone-50 leading-none">
           Skills & <em className="italic text-amber-600">expertise</em>
         </h2>
       </div>
@@ -103,11 +103,11 @@ export default function Skills() {
         {/* featured card — spans 2 rows on lg */}
         <div className="bg-[#221e1b] p-7 sm:row-span-2 hover:-translate-y-1 transition-transform duration-300 order-first cursor-pointer border border-stone-800">
           {/* large faded number */}
-          <div className="font-serif text-7xl lg:text-8xl font-normal text-white/5 leading-none mb-3 select-none">01</div>
+          <div className="text-7xl lg:text-8xl font-normal text-white/5 leading-none mb-3 select-none">01</div>
 
           <p className="text-[10px] tracking-widest uppercase text-amber-700 mb-3">Core Strength</p>
 
-          <h3 className="font-serif text-2xl lg:text-[26px] text-[#f5f0e8] leading-tight mb-6">
+          <h3 className="text-2xl lg:text-[26px] text-[#f5f0e8] leading-tight mb-6">
             Technical Support &<br />
             Troubleshooting
           </h3>
@@ -129,11 +129,11 @@ export default function Skills() {
         {skills.slice(1).map((skill, i) => (
           <div key={i} className="bg-[#1c1917] border border-stone-800 p-6 hover:-translate-y-1 transition-transform duration-300 cursor-pointer">
             {/* faded number */}
-            <div className="font-serif text-5xl font-normal text-white/5 leading-none mb-3 select-none">0{i + 2}</div>
+            <div className="text-5xl font-normal text-white/5 leading-none mb-3 select-none">0{i + 2}</div>
 
             <p className="text-[10px] tracking-widest uppercase text-stone-600 mb-2">{skill.category}</p>
 
-            <h3 className="font-serif text-xl text-stone-50 leading-tight mb-5">{skill.title}</h3>
+            <h3 className="text-xl text-stone-50 leading-tight mb-5">{skill.title}</h3>
 
             <div className="flex flex-wrap gap-1.5">
               {skill.pills.map((pill, j) => (

@@ -31,10 +31,7 @@ export default function Certifications() {
       <div className="pointer-events-none absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[300px] rounded-full bg-amber-700/5 blur-[100px]" />
 
       {/* bg: decorative SVG grid */}
-      <svg
-        className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.03]"
-        xmlns="http://www.w3.org/2000/svg"
-      >
+      <svg className="pointer-events-none absolute inset-0 w-full h-full opacity-[0.03]" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <pattern id="cert-grid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
             <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#e7e5e4" strokeWidth="0.5" />
@@ -50,10 +47,10 @@ export default function Certifications() {
             <span className="w-5 h-px bg-amber-700/60" />
             Credentials
           </p>
-          <h2 className="font-serif text-4xl font-normal text-stone-50 leading-none mb-5">
+          <h2 className="text-4xl font-normal text-stone-50 leading-none mb-5">
             My <em className="italic text-amber-600">certifications</em>
           </h2>
-          <p className="text-sm font-light leading-relaxed text-stone-600">
+          <p className="text-sm  leading-relaxed text-stone-600">
             Continuously expanding expertise through structured learning across UX, design, and product thinking.
           </p>
         </div>
@@ -74,9 +71,7 @@ export default function Certifications() {
               <div className="absolute inset-0 bg-gradient-to-r from-amber-700/0 to-amber-700/0 group-hover:from-amber-700/5 group-hover:to-transparent transition-all duration-500" />
 
               <div className="relative">
-                <p className="font-serif text-[17px] text-stone-300 leading-snug mb-1 group-hover:text-stone-50 transition-colors duration-300">
-                  {cert.name}
-                </p>
+                <p className="text-[17px] text-stone-300 leading-snug mb-1 group-hover:text-stone-50 transition-colors duration-300">{cert.name}</p>
                 <p className="text-[11px] tracking-wide uppercase text-stone-700 group-hover:text-stone-500 transition-colors duration-300">
                   {cert.issuer}
                 </p>

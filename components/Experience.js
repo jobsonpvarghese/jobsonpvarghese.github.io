@@ -59,12 +59,12 @@ export default function Experience({ data }) {
               <span className="w-5 h-px bg-amber-700/60" />
               Experience
             </p>
-            <h2 className="font-serif text-4xl sm:text-5xl font-normal text-stone-50 leading-none">
+            <h2 className="text-4xl sm:text-5xl font-normal text-stone-50 leading-none">
               Where I've <em className="italic text-amber-600">worked</em>
             </h2>
           </div>
 
-          <p className="text-sm font-light leading-relaxed text-stone-600 lg:self-end max-w-sm text-left lg:text-right">
+          <p className="text-sm  leading-relaxed text-stone-600 lg:self-end max-w-sm text-left lg:text-right">
             Six years across design studios, product teams, and agencies — building interfaces that balance craft with clarity.
           </p>
         </div>
@@ -84,14 +84,14 @@ export default function Experience({ data }) {
                 {job.duration}
               </span>
 
-              <h3 className="font-serif text-lg text-stone-50 leading-tight mb-1">{job.title}</h3>
+              <h3 className="text-lg text-stone-50 leading-tight mb-1">{job.title}</h3>
 
               <p className="text-[10px] tracking-widest uppercase text-stone-600 mb-3">
                 {job.company} · {job.location}
               </p>
               <ul className="space-y-1.5 mt-2 ml-5">
                 {job.responsibilities.slice(0, 5).map((resp, j) => (
-                  <li key={j} className="flex items-start text-xs font-light text-stone-600 leading-relaxed">
+                  <li key={j} className="flex items-start text-xs  text-stone-600 leading-relaxed">
                     <span className="w-3 h-px bg-amber-700 inline-block mt-[0.55em] shrink-0" />
                     &nbsp;{resp}
                   </li>
@@ -113,14 +113,14 @@ export default function Experience({ data }) {
                 {job.duration}
               </span>
 
-              <h3 className="font-serif text-lg text-stone-50 leading-tight mb-1">{job.title}</h3>
+              <h3 className="text-lg text-stone-50 leading-tight mb-1">{job.title}</h3>
 
               <p className="text-[10px] tracking-widest uppercase text-stone-600 mb-3">
                 {job.company} · {job.location}
               </p>
               <ul className="space-y-1.5 mt-2 ml-5">
                 {job.responsibilities.slice(0, 5).map((resp, j) => (
-                  <li key={j} className="flex items-start text-xs font-light text-stone-600 leading-relaxed">
+                  <li key={j} className="flex items-start text-xs  text-stone-600 leading-relaxed">
                     <span className="w-3 h-px bg-amber-700 inline-block mt-[0.55em] shrink-0" />
                     &nbsp;{resp}
                   </li>

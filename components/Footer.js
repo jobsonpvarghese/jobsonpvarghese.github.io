@@ -79,7 +79,7 @@ export default function Footer() {
               <span className="w-5 h-px bg-amber-700/60" />
               Let's collaborate
             </p>
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-stone-50 leading-[1.05]">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-stone-50 leading-[1.05]">
               Let's build something
               <br />
               <em className="italic text-amber-600">great together.</em>
@@ -107,7 +107,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
           {/* brand */}
           <div>
-            <h3 className="font-serif text-4xl font-normal text-stone-50 leading-none mb-2">
+            <h3 className="text-4xl font-normal text-stone-50 leading-none mb-2">
               Jobson <em className="italic text-amber-600">Varghese</em>
             </h3>
             <p className="text-[11px] tracking-widest uppercase text-stone-700 mb-5">Designer · Developer</p>
