@@ -3,40 +3,70 @@ export default function Hero() {
   return (
     <section className="grid grid-cols-1 lg:grid-cols-2 min-h-screen bg-[#f5f0e8]  relative overflow-hidden" id="hero">
       {/* bg blurs */}
-      <div className="pointer-events-none absolute -top-24 -left-24 w-[500px] h-[500px] rounded-full bg-amber-400/15 blur-[100px] animate-drift" />
+      <div className="pointer-events-none absolute -top-24 -left-24 w-[500px] h-[500px] rounded-full bg-amber-400/20 blur-[100px] animate-drift" />
       <div
-        className="pointer-events-none absolute bottom-0 left-[15%] w-[350px] h-[350px] rounded-full bg-amber-600/10 blur-[90px] animate-float"
+        className="pointer-events-none absolute bottom-0 left-[15%] w-[350px] h-[350px] rounded-full bg-orange-500/15 blur-[90px] animate-float"
         style={{ animationDelay: "3s" }}
       />
       <div
-        className="pointer-events-none absolute top-[40%] left-[30%] w-[250px] h-[250px] rounded-full bg-amber-500/8 blur-[70px] animate-float"
+        className="pointer-events-none absolute top-[40%] left-[30%] w-[250px] h-[250px] rounded-full bg-yellow-400/12 blur-[70px] animate-float"
         style={{ animationDelay: "1.5s" }}
+      />
+      <div
+        className="pointer-events-none absolute top-[20%] right-0 w-[300px] h-[300px] rounded-full bg-rose-400/10 blur-[80px] animate-drift"
+        style={{ animationDelay: "2s" }}
       />
 
       {/* spinning dashed circle — top-left */}
       <svg
-        className="pointer-events-none absolute top-10 left-10 opacity-[0.08] animate-[spin_50s_linear_infinite_reverse]"
+        className="pointer-events-none absolute top-10 left-10 opacity-[0.18] animate-[spin_50s_linear_infinite_reverse]"
         width="150"
         height="150"
         viewBox="0 0 150 150"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <circle cx="75" cy="75" r="74" stroke="#92400e" strokeWidth="0.75" strokeDasharray="6 10" />
-        <circle cx="75" cy="75" r="52" stroke="#92400e" strokeWidth="0.5" strokeDasharray="3 14" />
+        <circle cx="75" cy="75" r="74" stroke="#b45309" strokeWidth="0.75" strokeDasharray="6 10" />
+        <circle cx="75" cy="75" r="52" stroke="#d97706" strokeWidth="0.5" strokeDasharray="3 14" />
+      </svg>
+
+      {/* spinning dashed triangle — top-right */}
+      <svg
+        className="pointer-events-none absolute top-16 right-16 opacity-[0.12] animate-[spin_80s_linear_infinite]"
+        width="120"
+        height="120"
+        viewBox="0 0 120 120"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polygon points="60,4 116,112 4,112" stroke="#c2410c" strokeWidth="0.75" strokeDasharray="5 9" />
+        <polygon points="60,20 100,100 20,100" stroke="#ea580c" strokeWidth="0.5" strokeDasharray="3 12" />
       </svg>
 
       {/* spinning dashed square — bottom-left */}
       <svg
-        className="pointer-events-none absolute bottom-16 left-12 opacity-[0.07] animate-[spin_65s_linear_infinite]"
+        className="pointer-events-none absolute bottom-16 left-12 opacity-[0.14] animate-[spin_65s_linear_infinite]"
         width="90"
         height="90"
         viewBox="0 0 90 90"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <rect x="1" y="1" width="88" height="88" stroke="#92400e" strokeWidth="0.75" strokeDasharray="4 8" />
-        <rect x="12" y="12" width="66" height="66" stroke="#92400e" strokeWidth="0.5" strokeDasharray="2 10" />
+        <rect x="1" y="1" width="88" height="88" stroke="#b45309" strokeWidth="0.75" strokeDasharray="4 8" />
+        <rect x="12" y="12" width="66" height="66" stroke="#f59e0b" strokeWidth="0.5" strokeDasharray="2 10" />
+      </svg>
+
+      {/* spinning dashed diamond — bottom-right */}
+      <svg
+        className="pointer-events-none absolute bottom-24 right-10 opacity-[0.10] animate-[spin_90s_linear_infinite_reverse]"
+        width="100"
+        height="100"
+        viewBox="0 0 100 100"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polygon points="50,2 98,50 50,98 2,50" stroke="#9a3412" strokeWidth="0.75" strokeDasharray="5 8" />
+        <polygon points="50,18 82,50 50,82 18,50" stroke="#ea580c" strokeWidth="0.5" strokeDasharray="3 11" />
       </svg>
 
       <div className="relative overflow-visible lg:overflow-hidden h-[100vw] sm:h-[60vw] lg:h-auto lg:min-h-full lg:order-2">
