@@ -107,7 +107,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
           {/* brand */}
           <div>
-            <h3 className="text-4xl font-normal text-stone-50 leading-none mb-2">
+            <h3 className="text-4xl font-normal text-stone-50 leading-none mb-2 fraunces">
               Jobson <em className="italic text-amber-600">Varghese</em>
             </h3>
             <p className="text-[11px] tracking-widest uppercase text-stone-700 mb-5">Designer · Developer</p>
