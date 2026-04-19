@@ -39,13 +39,13 @@ export default function Hero() {
         <rect x="12" y="12" width="66" height="66" stroke="#92400e" strokeWidth="0.5" strokeDasharray="2 10" />
       </svg>
 
-      <div className="relative overflow-hidden h-[100vw] sm:h-[60vw] lg:h-auto lg:min-h-full lg:order-2">
+      <div className="relative overflow-visible lg:overflow-hidden h-[100vw] sm:h-[60vw] lg:h-auto lg:min-h-full lg:order-2">
         <img
           src="/img/hero.png"
           alt="Portrait"
           className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-[6000ms] "
         />
-        <div className="absolute bottom-8 left-8 bg-[#f5f0e8] px-5 py-3 text-[11px] tracking-widest uppercase">
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 z-10 lg:bottom-8 lg:left-8 lg:translate-x-0 lg:translate-y-0 bg-[#f5f0e8] px-5 py-3 text-[11px] tracking-widest uppercase shadow-md whitespace-nowrap">
           <span className="text-amber-900 font-bold">Jobson Varghese</span>
           <span className="text-amber-700"> · Full Stack Developer</span>
         </div>
@@ -68,7 +68,7 @@ export default function Hero() {
             people <em className="italic text-amber-700">feel</em> something.
           </h1>
 
-          <p className="animate-fade-up text-base  leading-relaxed text-stone-400 max-w-md mb-14" style={{ animationDelay: "0.45s" }}>
+          <p className="animate-fade-up text-base font-light leading-relaxed text-stone-400 max-w-md mb-14" style={{ animationDelay: "0.45s" }}>
             I'm Jobson Varghese — a product designer crafting engaging digital experiences.
           </p>
 
