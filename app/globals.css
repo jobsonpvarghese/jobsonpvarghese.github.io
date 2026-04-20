@@ -6,7 +6,7 @@ body {
   background-color: #f0f0f0;
   color: #333;
   scroll-behavior: smooth;
-  font-family: var(--font-montserrat), sans-serif;
+  font-family: var(--font-geist-mono), monospace;
 }
 
 html,
@@ -21,4 +21,9 @@ h2 {
 
 .fraunces {
   font-family: var(--font-fraunces), serif !important;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
