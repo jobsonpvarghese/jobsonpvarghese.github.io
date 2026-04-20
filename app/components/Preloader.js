@@ -104,7 +104,7 @@ export default function Preloader({ onComplete }) {
         position: "fixed",
         inset: 0,
         zIndex: 50,
-        background: "#111009",
+        background: "#1c1917",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

@@ -27,7 +27,7 @@ export default function Hero() {
       ref={containerRef}
       id="hero"
       style={{ fontFamily: "'Raleway', sans-serif" }}
-      className="relative min-h-screen bg-[#111009] overflow-hidden flex flex-col lg:flex-row"
+      className="relative min-h-screen bg-[#1c1917] overflow-hidden flex flex-col lg:flex-row"
     >
       {/* ── Grain overlay ── */}
       <div
@@ -108,7 +108,7 @@ export default function Hero() {
                   lineHeight: 1.04,
                   letterSpacing: "-0.01em",
                   background: "#d97706",
-                  color: "#111009",
+                  color: "#1c1917",
                   padding: "0 0.2em",
                   display: "inline-block"
                 }}
@@ -159,7 +159,7 @@ export default function Hero() {
                 letterSpacing: "0.22em",
                 textTransform: "uppercase",
                 background: "#e8dfc8",
-                color: "#111009",
+                color: "#1c1917",
                 padding: "13px 28px",
                 display: "inline-flex",
                 alignItems: "center",
@@ -233,7 +233,7 @@ export default function Hero() {
           {/* Amber bottom fade */}
           <div
             className="absolute bottom-0 left-0 right-0 h-32 pointer-events-none"
-            style={{ background: "linear-gradient(to top, #111009 0%, transparent 100%)" }}
+            style={{ background: "linear-gradient(to top, #1c1917 0%, transparent 100%)" }}
           />
 
           {/* Name badge */}
@@ -253,6 +253,18 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      {/* bottom gradient fade into next section */}
+      <div
+        className="pointer-events-none absolute bottom-0 left-0 right-0 h-40 z-30"
+        style={{ background: "linear-gradient(to bottom, transparent, #1c1917)" }}
+      />
+
+      {/* bottom amber bleed — connects with Experience's top glow */}
+      <div
+        className="pointer-events-none absolute -bottom-24 left-1/2 -translate-x-1/2 w-[700px] h-[300px] z-20"
+        style={{ background: "radial-gradient(ellipse, rgba(217,119,6,0.07) 0%, transparent 70%)" }}
+      />
     </section>
   )
 }

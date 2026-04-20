@@ -1,11 +1,8 @@
 export default function Experience({ data }) {
   return (
     <section id="experience" className="px-6 sm:px-14 lg:px-24 py-28 lg:py-52 bg-[#1c1917] relative">
-      {/* top border */}
-      <div className="absolute top-0 left-6 sm:left-10 lg:left-14 right-6 sm:right-10 lg:right-14 h-px bg-white/5" />
-
-      {/* bg: amber radial glow — top-left */}
-      <div className="pointer-events-none absolute -top-32 -left-32 w-[600px] h-[600px] rounded-full bg-amber-700/10 blur-[120px]" />
+      {/* bg: amber radial glow — top-left, extended upward to bleed into Hero */}
+      <div className="pointer-events-none absolute -top-64 -left-32 w-[600px] h-[700px] rounded-full bg-amber-700/10 blur-[130px]" />
 
       {/* bg: amber radial glow — bottom-right */}
       <div className="pointer-events-none absolute -bottom-32 -right-32 w-[500px] h-[500px] rounded-full bg-amber-600/8 blur-[130px]" />
