@@ -203,7 +203,7 @@ export default function Hero() {
                 e.currentTarget.style.borderColor = "rgba(214,190,140,0.2)"
               }}
             >
-              Get in touch ↗
+              Get in touch
             </a>
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function Hero() {
             className="absolute bottom-6 left-6 z-20"
             style={{
               fontFamily: "'Raleway', sans-serif",
-              fontSize: "9px",
+              fontSize: "10px",
               letterSpacing: "0.2em",
               textTransform: "uppercase"
             }}

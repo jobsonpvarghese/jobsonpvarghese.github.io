@@ -22,7 +22,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${fraunces.variable} ${raleway.variable}`} suppressHydrationWarning>
-      <body className="bg-gray-50 text-gray-900">{children}</body>
+      <body className="bg-[#111009] text-gray-900">{children}</body>
     </html>
   )
 }
