@@ -26,7 +26,7 @@ export default function Hero() {
     <section
       ref={containerRef}
       id="hero"
-      style={{ fontFamily: "'Geist Mono', monospace" }}
+      style={{ fontFamily: "'Raleway', sans-serif" }}
       className="relative min-h-screen bg-[#111009] overflow-hidden flex flex-col lg:flex-row"
     >
       {/* ── Grain overlay ── */}
@@ -45,35 +45,6 @@ export default function Hero() {
       />
 
       {/* ══════════════════════════════════════
-          LEFT RAIL — vertical name + metadata
-      ══════════════════════════════════════ */}
-      <div
-        data-reveal
-        className="hidden lg:flex flex-col items-center justify-between py-10 px-0 w-16 xl:w-20 shrink-0 relative z-20"
-        style={{ borderRight: "0.5px solid rgba(214,190,140,0.12)" }}
-      >
-        {/* Vertical name */}
-        <div
-          className="flex-1 flex items-center justify-center"
-          style={{
-            writingMode: "vertical-rl",
-            transform: "rotate(180deg)",
-            fontFamily: "'Cormorant Garamond', serif",
-            fontSize: "clamp(11px, 1.1vw, 15px)",
-            fontWeight: 300,
-            letterSpacing: "0.35em",
-            color: "rgba(214,190,140,0.35)",
-            textTransform: "uppercase"
-          }}
-        >
-          Jobson Varghese
-        </div>
-
-        {/* Bottom dot */}
-        <div className="w-1 h-1 rounded-full bg-amber-600 opacity-60 mb-2" />
-      </div>
-
-      {/* ══════════════════════════════════════
           MAIN CONTENT
       ══════════════════════════════════════ */}
       <div className="flex-1 flex flex-col lg:flex-row relative z-20">
@@ -83,7 +54,7 @@ export default function Hero() {
           <div data-reveal className="flex items-center gap-3">
             <span
               style={{
-                fontFamily: "'Geist Mono', monospace",
+                fontFamily: "'Raleway', sans-serif",
                 fontSize: "9px",
                 letterSpacing: "0.28em",
                 textTransform: "uppercase",
@@ -95,7 +66,7 @@ export default function Hero() {
             <span style={{ width: "1px", height: "12px", background: "rgba(214,190,140,0.15)" }} />
             <span
               style={{
-                fontFamily: "'Geist Mono', monospace",
+                fontFamily: "'Raleway', sans-serif",
                 fontSize: "9px",
                 letterSpacing: "0.28em",
                 textTransform: "uppercase",
@@ -103,7 +74,7 @@ export default function Hero() {
                 opacity: 0.8
               }}
             >
-              Available for work
+              London, Ontario
             </span>
           </div>
 
@@ -165,7 +136,7 @@ export default function Hero() {
             <p
               data-reveal
               style={{
-                fontFamily: "'Geist Mono', monospace",
+                fontFamily: "'Raleway', sans-serif",
                 fontSize: "clamp(11px, 1.1vw, 13px)",
                 fontWeight: 300,
                 lineHeight: 1.8,
@@ -183,7 +154,7 @@ export default function Hero() {
             <a
               href="#work"
               style={{
-                fontFamily: "'Geist Mono', monospace",
+                fontFamily: "'Raleway', sans-serif",
                 fontSize: "9px",
                 letterSpacing: "0.22em",
                 textTransform: "uppercase",
@@ -210,7 +181,7 @@ export default function Hero() {
             <a
               href="#contact"
               style={{
-                fontFamily: "'Geist Mono', monospace",
+                fontFamily: "'Raleway', sans-serif",
                 fontSize: "9px",
                 letterSpacing: "0.22em",
                 textTransform: "uppercase",
@@ -270,7 +241,7 @@ export default function Hero() {
             data-reveal
             className="absolute bottom-6 left-6 z-20"
             style={{
-              fontFamily: "'Geist Mono', monospace",
+              fontFamily: "'Raleway', sans-serif",
               fontSize: "9px",
               letterSpacing: "0.2em",
               textTransform: "uppercase"
@@ -281,23 +252,6 @@ export default function Hero() {
             <span style={{ color: "rgba(214,190,140,0.4)" }}>Full Stack Developer</span>
           </div>
         </div>
-      </div>
-
-      {/* ══════════════════════════════════════
-          BOTTOM TICKER — mobile only hidden on lg
-      ══════════════════════════════════════ */}
-      <div className="relative z-20 lg:hidden" style={{ borderTop: "0.5px solid rgba(214,190,140,0.1)", padding: "12px 32px" }}>
-        <p
-          style={{
-            fontFamily: "'Geist Mono', monospace",
-            fontSize: "9px",
-            letterSpacing: "0.22em",
-            textTransform: "uppercase",
-            color: "rgba(214,190,140,0.3)"
-          }}
-        >
-          Full Stack Developer · Available 2025
-        </p>
       </div>
     </section>
   )

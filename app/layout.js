@@ -1,5 +1,5 @@
 import "./globals.css"
-import { Fraunces, Geist_Mono } from "next/font/google"
+import { Fraunces, Raleway } from "next/font/google"
 import MouseTrail from "./components/MouseTrail.js"
 
 const fraunces = Fraunces({
@@ -8,9 +8,9 @@ const fraunces = Fraunces({
   display: "swap"
 })
 
-const geistMono = Geist_Mono({
+const raleway = Raleway({
   subsets: ["latin"],
-  variable: "--font-geist-mono",
+  variable: "--font-raleway",
   display: "swap"
 })
 
@@ -21,7 +21,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${fraunces.variable} ${raleway.variable}`} suppressHydrationWarning>
       <body className="bg-gray-50 text-gray-900">{children}</body>
     </html>
   )

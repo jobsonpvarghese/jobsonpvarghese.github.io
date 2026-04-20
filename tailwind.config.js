@@ -4,7 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         serif: ["Fraunces", "serif"],
-        sans: ["Geist Mono", "monospace"]
+        sans: ["Raleway", "sans-serif"]
       }
     }
   },
