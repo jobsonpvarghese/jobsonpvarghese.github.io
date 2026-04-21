@@ -218,7 +218,7 @@ export default function Footer() {
         {/* bottom bar */}
         <div data-scroll="up" data-scroll-delay="0.1" className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
           <p className="text-[11px] text-stone-800 tracking-wide">
-            © 2025 <span className="text-amber-600/70">Jobson Varghese</span> · Designed & built with love in Next.js
+            © 2025 <span className="text-amber-600/70">Jobson Varghese</span> · Built with love in Next.js
           </p>
           <a
             href="#hero"

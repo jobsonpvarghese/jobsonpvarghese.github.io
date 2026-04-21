@@ -25,7 +25,7 @@ export default function Home() {
     <>
       <Preloader onComplete={() => setLoaded(true)} />
       <main className={`overflow-x-clip transition-opacity duration-700 delay-300 ${loaded ? "opacity-100" : "opacity-0"}`}>
-        {/* <Navbar /> */}
+        <Navbar />
         <Hero />
         <Education />
         <Experience data={experience} />
