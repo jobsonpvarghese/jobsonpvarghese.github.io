@@ -43,8 +43,11 @@ export default function Certifications() {
       <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10 lg:gap-16 items-start relative">
         {/* left */}
         <div data-scroll="left">
-          <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3">
-            <span className="w-5 h-px bg-amber-700/60" />
+          <p className="flex items-center gap-2 text-[11px] tracking-widest uppercase text-stone-600 mb-3">
+            {/* award icon */}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#b45309" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/>
+            </svg>
             Credentials
           </p>
           <h2 className="text-4xl font-normal text-stone-50 leading-none mb-5">
@@ -72,14 +75,23 @@ export default function Certifications() {
               {/* blended amber glow on hover */}
               <div className="absolute inset-0 bg-gradient-to-r from-amber-700/0 to-amber-700/0 group-hover:from-amber-700/5 group-hover:to-transparent transition-all duration-500" />
 
-              <div className="relative">
-                <p className="text-[17px] text-stone-300 leading-snug mb-1 group-hover:text-stone-50 transition-colors duration-300">{cert.name}</p>
-                <p className="text-[11px] tracking-wide uppercase text-stone-700 group-hover:text-stone-500 transition-colors duration-300">
-                  {cert.issuer}
-                </p>
+              <div className="relative flex items-center gap-4">
+                {/* certificate badge icon */}
+                <svg className="shrink-0 text-stone-800 group-hover:text-amber-700/60 transition-colors duration-300" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="3" y="3" width="18" height="14" rx="1"/><path d="M8 21h8M12 17v4"/><path d="M8 9h8M8 12h5"/>
+                </svg>
+                <div>
+                  <p className="text-[17px] text-stone-300 leading-snug mb-1 group-hover:text-stone-50 transition-colors duration-300">{cert.name}</p>
+                  <p className="text-[11px] tracking-wide uppercase text-stone-700 group-hover:text-stone-500 transition-colors duration-300">
+                    {cert.issuer}
+                  </p>
+                </div>
               </div>
 
-              <span className="text-stone-700 group-hover:text-amber-600 transition-colors duration-300 shrink-0 relative">↗</span>
+              {/* arrow icon */}
+              <svg className="text-stone-700 group-hover:text-amber-600 transition-colors duration-300 shrink-0 relative" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M7 17L17 7M7 7h10v10"/>
+              </svg>
             </div>
           ))}
         </div>

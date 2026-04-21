@@ -1,7 +1,3 @@
-// Hero.jsx — Dark Editorial Redesign
-// Fonts needed (add to your index.html or _document.jsx):
-// <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=Geist+Mono:wght@300;400&display=swap" rel="stylesheet">
-
 import { useEffect, useRef } from "react"
 
 export default function Hero() {
@@ -179,7 +175,7 @@ export default function Hero() {
             </a>
 
             <a
-              href="#contact"
+              href="#footer"
               style={{
                 fontFamily: "'Raleway', sans-serif",
                 fontSize: "9px",

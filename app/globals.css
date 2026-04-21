@@ -9,9 +9,8 @@ body {
   font-family: var(--font-raleway), sans-serif;
 }
 
-html,
-body,
-* {
+html {
+  scroll-behavior: smooth;
 }
 
 h1,

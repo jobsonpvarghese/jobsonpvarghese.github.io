@@ -44,7 +44,7 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1c1917] relative">
+    <footer id="footer" className="bg-[#1c1917] relative">
       {/* shared bg effects across whole footer */}
       <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] rounded-full bg-amber-700/10 blur-[130px]" />
       <div className="pointer-events-none absolute bottom-0 -left-40 w-[500px] h-[500px] rounded-full bg-amber-600/8 blur-[120px]" />
@@ -75,8 +75,20 @@ export default function Footer() {
       <div className="relative px-6 sm:px-14 lg:px-24 pt-32 pb-28 border-b border-white/5">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
           <div data-scroll="up">
-            <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-5">
-              <span className="w-5 h-px bg-amber-700/60" />
+            <p className="flex items-center gap-2 text-[11px] tracking-widest uppercase text-stone-600 mb-5">
+              {/* handshake / spark icon */}
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#b45309"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M12 2L9.5 8.5H3l5.5 4-2 6.5L12 15l5.5 4-2-6.5L21 8.5h-6.5L12 2z" />
+              </svg>
               Let's collaborate
             </p>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-stone-50 leading-[1.05]">
@@ -92,9 +104,22 @@ export default function Footer() {
               className="inline-flex items-center gap-3 border border-amber-600/40 text-amber-600
                          text-[11px] tracking-widest uppercase px-8 py-4
                          hover:bg-amber-600 hover:text-[#131110] hover:border-amber-600
-                         transition-all duration-300"
+                         transition-all duration-300 group"
             >
-              Get in touch ↗
+              Get in touch
+              <svg
+                className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                width="12"
+                height="12"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M7 17L17 7M7 7h10v10" />
+              </svg>
             </a>
             <p className="text-[11px] text-stone-700 tracking-wide lg:text-right">jobsonvarghese1@email.com</p>
           </div>
@@ -119,7 +144,21 @@ export default function Footer() {
 
           {/* nav */}
           <div data-scroll="up" data-scroll-delay="0.15">
-            <p className="text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">Navigation</p>
+            <p className="flex items-center gap-2 text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <polygon points="3 11 22 2 13 21 11 13 3 11" />
+              </svg>
+              Navigation
+            </p>
             <div className="flex flex-col gap-2.5">
               {navLinks.map(link => (
                 <a
@@ -137,7 +176,22 @@ export default function Footer() {
 
           {/* socials */}
           <div data-scroll="up" data-scroll-delay="0.25">
-            <p className="text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">Connect</p>
+            <p className="flex items-center gap-2 text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">
+              <svg
+                width="11"
+                height="11"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+              </svg>
+              Connect
+            </p>
             <div className="flex flex-col gap-px bg-stone-800/60">
               {socials.map(s => (
                 <a
