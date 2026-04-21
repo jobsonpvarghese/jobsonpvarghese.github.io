@@ -48,15 +48,18 @@ export default function Education() {
         <circle cx="70" cy="70" r="48" stroke="#d97706" strokeWidth="0.5" strokeDasharray="3 14" />
       </svg>
 
-      <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3">
-        <span className="w-5 h-px bg-amber-700/60" />
+      <p data-scroll="left" className="flex items-center gap-2 text-[11px] tracking-widest uppercase text-stone-600 mb-3">
+        {/* graduation cap icon */}
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#b45309" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/>
+        </svg>
         Academic background
       </p>
-      <h2 className="text-4xl sm:text-5xl font-normal text-stone-50 leading-none mb-10">
+      <h2 data-scroll="up" data-scroll-delay="0.1" className="text-4xl sm:text-5xl font-normal text-stone-50 leading-none mb-10">
         My <em className="italic text-amber-600">education</em>
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-stone-800">
+      <div data-scroll="up" data-scroll-delay="0.2" className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-stone-800">
         {/* Post Graduate */}
         <div className="bg-[#1c1917] p-8 relative overflow-hidden hover:bg-[#221e1b] transition-colors duration-300 cursor-default group">
           {/* faded number */}
@@ -64,18 +67,26 @@ export default function Education() {
             01
           </div>
 
-          <div className="text-[10px] tracking-widest uppercase text-stone-600  mb-4">May 2022 — Aug 2023</div>
+          <div className="flex items-center justify-between mb-4">
+            <div className="text-[10px] tracking-widest uppercase text-stone-600">May 2022 — Aug 2023</div>
+            {/* diploma scroll icon */}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#44403c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/>
+            </svg>
+          </div>
 
-          <span className="inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1  mb-5">
+          <span className="inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1 mb-5">
             Post Graduate
           </span>
 
           <h3 className="text-[20px] text-stone-50 leading-snug mb-5">Post Graduate Diploma in Mobile Application Development</h3>
 
           <div className="mt-auto">
-            <p className="text-[10px] tracking-widest uppercase text-stone-600  mb-2">Fanshawe College</p>
-            <p className="text-sm text-stone-600  flex items-center gap-2">
-              <span className="w-3 h-px bg-amber-700 inline-block" />
+            <p className="text-[10px] tracking-widest uppercase text-stone-600 mb-2">Fanshawe College</p>
+            <p className="text-sm text-stone-600 flex items-center gap-2">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#b45309" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
               London, Ontario, Canada
             </p>
           </div>
@@ -88,18 +99,26 @@ export default function Education() {
             02
           </div>
 
-          <div className="text-[10px] tracking-widest uppercase text-stone-600  mb-4">Aug 2017 — May 2021</div>
+          <div className="flex items-center justify-between mb-4">
+            <div className="text-[10px] tracking-widest uppercase text-stone-600">Aug 2017 — May 2021</div>
+            {/* book icon */}
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#44403c" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+          </div>
 
-          <span className="inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1  mb-5">
+          <span className="inline-block text-[9px] tracking-widest uppercase text-amber-600 border border-amber-600/30 px-3 py-1 mb-5">
             Bachelor's
           </span>
 
           <h3 className="text-[20px] text-stone-50 leading-snug mb-5">Bachelor of Technology in Computer Science & Engineering</h3>
 
           <div className="mt-auto">
-            <p className="text-[10px] tracking-widest uppercase text-stone-600  mb-2">St. Joseph's College of Engineering & Technology</p>
-            <p className="text-sm text-stone-600  flex items-center gap-2">
-              <span className="w-3 h-px bg-amber-700 inline-block" />
+            <p className="text-[10px] tracking-widest uppercase text-stone-600 mb-2">St. Joseph's College of Engineering & Technology</p>
+            <p className="text-sm text-stone-600 flex items-center gap-2">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="#b45309" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
               Palai, Kerala, India
             </p>
           </div>

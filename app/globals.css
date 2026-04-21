@@ -27,3 +27,20 @@ h2 {
   from { transform: translateX(0); }
   to   { transform: translateX(-50%); }
 }
+
+/* ── Scroll reveal states ── */
+[data-scroll] {
+  opacity: 0;
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+[data-scroll="up"]    { transform: translateY(36px); }
+[data-scroll="down"]  { transform: translateY(-36px); }
+[data-scroll="left"]  { transform: translateX(-36px); }
+[data-scroll="right"] { transform: translateX(36px); }
+[data-scroll="scale"] { transform: scale(0.94); }
+
+[data-scroll].in-view {
+  opacity: 1;
+  transform: none;
+}

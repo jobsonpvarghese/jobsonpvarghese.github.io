@@ -1,6 +1,7 @@
 import "./globals.css"
 import { Fraunces, Raleway } from "next/font/google"
 import MouseTrail from "./components/MouseTrail.js"
+import ScrollObserver from "./components/ScrollObserver.js"
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -22,7 +23,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${fraunces.variable} ${raleway.variable}`} suppressHydrationWarning>
-      <body className="bg-[#1c1917] text-gray-900">{children}</body>
+      <body className="bg-[#1c1917] text-gray-900">
+        <ScrollObserver />
+        {children}
+      </body>
     </html>
   )
 }

@@ -42,7 +42,7 @@ export default function Certifications() {
 
       <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10 lg:gap-16 items-start relative">
         {/* left */}
-        <div>
+        <div data-scroll="left">
           <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-3">
             <span className="w-5 h-px bg-amber-700/60" />
             Credentials
@@ -50,7 +50,7 @@ export default function Certifications() {
           <h2 className="text-4xl font-normal text-stone-50 leading-none mb-5">
             My <em className="italic text-amber-600">certifications</em>
           </h2>
-          <p className="text-sm  leading-relaxed text-stone-600">
+          <p className="text-sm leading-relaxed text-stone-600">
             Continuously expanding expertise through structured learning across UX, design, and product thinking.
           </p>
         </div>
@@ -60,6 +60,8 @@ export default function Certifications() {
           {certs.map((cert, i) => (
             <div
               key={i}
+              data-scroll="up"
+              data-scroll-delay={`${i * 0.1}`}
               className="bg-[#1c1917] px-6 py-5 flex items-center justify-between gap-4
                          group relative overflow-hidden cursor-pointer
                          hover:bg-[#221e1b] transition-colors duration-300"

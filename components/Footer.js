@@ -74,7 +74,7 @@ export default function Footer() {
       {/* CTA section */}
       <div className="relative px-6 sm:px-14 lg:px-24 pt-32 pb-28 border-b border-white/5">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
-          <div>
+          <div data-scroll="up">
             <p className="flex items-center gap-3 text-[11px] tracking-widest uppercase text-stone-600 mb-5">
               <span className="w-5 h-px bg-amber-700/60" />
               Let's collaborate
@@ -86,7 +86,7 @@ export default function Footer() {
             </h2>
           </div>
 
-          <div className="flex flex-col gap-4 lg:items-end shrink-0">
+          <div data-scroll="right" data-scroll-delay="0.15" className="flex flex-col gap-4 lg:items-end shrink-0">
             <a
               href="mailto:jobson@email.com"
               className="inline-flex items-center gap-3 border border-amber-600/40 text-amber-600
@@ -106,7 +106,7 @@ export default function Footer() {
         {/* top grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 mb-14">
           {/* brand */}
-          <div>
+          <div data-scroll="up" data-scroll-delay="0.05">
             <h3 className="text-4xl font-normal text-stone-50 leading-none mb-2 fraunces">
               Jobson <em className="italic text-amber-600">Varghese</em>
             </h3>
@@ -118,7 +118,7 @@ export default function Footer() {
           </div>
 
           {/* nav */}
-          <div>
+          <div data-scroll="up" data-scroll-delay="0.15">
             <p className="text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">Navigation</p>
             <div className="flex flex-col gap-2.5">
               {navLinks.map(link => (
@@ -136,7 +136,7 @@ export default function Footer() {
           </div>
 
           {/* socials */}
-          <div>
+          <div data-scroll="up" data-scroll-delay="0.25">
             <p className="text-[10px] tracking-widest uppercase text-amber-600/70 mb-5">Connect</p>
             <div className="flex flex-col gap-px bg-stone-800/60">
               {socials.map(s => (
@@ -162,7 +162,7 @@ export default function Footer() {
         <div className="h-px bg-white/5 mb-7" />
 
         {/* bottom bar */}
-        <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+        <div data-scroll="up" data-scroll-delay="0.1" className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
           <p className="text-[11px] text-stone-800 tracking-wide">
             © 2025 <span className="text-amber-600/70">Jobson Varghese</span> · Designed & built with love in Next.js
           </p>
