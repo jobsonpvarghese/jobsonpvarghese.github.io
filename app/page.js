@@ -7,6 +7,7 @@ import Skills from "../components/Skills"
 import Education from "../components/Education"
 import Footer from "../components/Footer"
 import Certifications from "../components/Certification.js"
+import Projects from "../components/Projects"
 import Preloader from "./components/Preloader"
 
 import experience from "./metadata/index.js"
@@ -30,6 +31,7 @@ export default function Home() {
         <Education />
         <Experience data={experience} />
         <Skills />
+        <Projects />
         <Certifications />
         <Footer />
       </main>
